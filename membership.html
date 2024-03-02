@@ -4,151 +4,209 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ALUMNI</title>
   </head>
   <body>
-
-    <header>
+    <header class="navbox">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-          <nav class="navbar navbar-expand-lg navbar-light" id="navbar_top">
-            <a class="navbar-brand" href="#">
-                <span class="nav-item-logo">
-                    <a href="Home.html">
-                    <img src="/assets/Logo.png" alt="" />
-                    </a>
-                  </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <div class="nav-top">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="Home.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="About.html">About</a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="Newupdates.html">Newupdates</a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="membership.html">Membership</a>
-                      </li>
-                    </ul>
-                  </div>
-              <div class="main-buttons pt-2">
-                <button class="contact-btn">Contact Us</button>
-                <button class="hero-btn">Get Involved</button>
-
+        <div class="col-sm-12 col-md-12 col-lg-10 relative">
+            <nav class="d-flex align-items-center pt-2 justify-content-between">
+            
+              <div class="nav-logo">
+                <a href="index.html">
+                  <img src="/assets/Logo.png" alt="">
+                </a>
               </div>
-            </div>
-          </nav>
+              <div class="nav-logo2">
+                <img src="/assets/Artboard 3 1.png" alt="" width="100%">
+              </div>
+                <div class="top-nav d-flex align-items-center justify-content-between">
+                  <!-- <div class="nav-details"> -->
+                      <div class="nav-infom">
+                        <ul class="nav-list pt-3">
+                          <a href="index.html">
+                            <li>Home</li>
+                          </a>
+
+                          <a href="About.html">
+                            <li>About</li>
+                          </a>
+                         
+                          <a href="Newupdates.html">
+                          <li>News Updates</li>
+                          </a>
+
+                          <a href="membership.html">
+                            <li>Membership</li>
+                          </a>
+                        </ul>
+                      </div>
+                  <!-- </div> -->
+                  <div class="nav-bts ">
+                      <div>
+                        <button class="new-one">Contact Us</button>
+                      </div>
+                      <div>
+                        <a href="form.html">
+                          <button class="new-two">Get Involved</button>
+                        </a>
+                      </div>
+                  </div>
+                </div>
+                <div class="iconssss">
+                  <img class="" id="navSmall" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAiElEQVR4nO3YwRGAIAxEUcrTsQdCH5oGSJdqH3qyADEjKP/NcGdP2dkQAABAg0RtSpr3pHbUfLLYFtXG+wEW22p/Pl0hNK/9BYhqYwshRPMqcx5uBwAA9E0cu1Bxn3nC+woX1YGuA0THLkSfAQD8fhcS775UY5EQz7rx+QDx5V1I2H8AAAjfcwI8FTi/DCbpogAAAABJRU5ErkJggg==">
+                </div>
+                
+            </nav>
+            
+              <!-- small nav -->
+              <div class="aim" id="myaim" style="display: none;">
+                <div class="top-naves ">
+                  <div class="nav-details">
+                      
+                      <div class="wow" id="tap">
+                        <div class="nav-infrom" id="tap">
+                          <ul class="nav-listed" id="tap">
+                            <a href="index.html">
+                              <li>Home</li>
+                            </a>
+  
+                            <a href="About.html">
+                              <li>About</li>
+                            </a>
+                           
+                            <a href="Newupdates.html">
+                            <li>News Updates</li>
+                            </a>
+  
+                            <a href="membership.html">
+                              <li>Membership</li>
+                            </a>
+                          </ul>
+                        </div>
+                        <div class="nav-btes">
+                          <div>
+                            <button class="new-one">Contact Us</button>
+                          </div>
+                          <div>
+                            <a href="form.html">
+                              <button class="new-two">Get Involved</button>
+                            </a>
+                          </div>
+                      </div>
+                    </div>
+                      </div>
+                    
+                </div>
+                
+              </div>
+              <!-- small nav -->
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
+
       </div>
     </header>
 
-    <section>
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-          <div class="membership">
+    <div data-aos="fade-down"
+          data-aos-duration="2000">
+          <section>
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="membership-text">
-                  <h2>
-                    Be Excited <span class="join">to join </span>the <br />
-                    <span class="tla">TLA</span> Community
-                  </h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Magna praesent etiam
-                    aliquet sagittis iaculis morbi volutpat. Ac massa in
-                    lobortis tincidunt vel. Scelerisque platea purus morbi eget
-                    pretium. Suspendisse urna massa mauris commodo elit. Aliquet
-                    lectus feugiat diam sed tortor urna dictumst consectetur.
-                    Scelerisque sollicitudin auctor donec diam.
-                  </p>
-                  <button class="get-butss">Get Involved</button>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                <div class="membership">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="membership-text">
+                        <h2>
+                          Be Excited <span class="join">to join </span>the <br />
+                          <span class="tla">TLA</span> Community
+                        </h2>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur. Magna praesent etiam
+                          aliquet sagittis iaculis morbi volutpat. Ac massa in
+                          lobortis tincidunt vel. Scelerisque platea purus morbi eget
+                          pretium. Suspendisse urna massa mauris commodo elit. Aliquet
+                          lectus feugiat diam sed tortor urna dictumst consectetur.
+                          Scelerisque sollicitudin auctor donec diam.
+                        </p>
+                        <button class="get-butss">Get Involved</button>
+                      </div>
+                    </div>
+      
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="membership-image mt-2">
+                        <img src="/assets/Group 20645.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            </div>
+          </section>
+    </div>
 
-              <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="membership-image mt-2">
-                  <img src="/assets/Group 20645.png" alt="" />
-                </div>
+    
+    <div data-aos="fade-left" 
+          data-aos-duration="3000">
+          <section class="alum_memb mt-4">
+            <h2 class="text-center p-5">
+              What <span class="broo">Alumni Membership</span> Offer
+            </h2>
+            <div class="alum_up">
+              <img src="./assets/Frame 110.png" alt="" />
+              <div>
+                <h3>Professional Network</h3>
+                <p class="edit-1">
+                  Your Tech Diploma is a 7-month intense academic exercise that is
+                  designed to cut through the noise and give you only
+                  industry-standard skills, experience and certification. Classes are
+                  taught by certified experts, demanding examinations every semester,
+                  real-life projects defense and compulsory internships. Tech Diploma
+                  is not an easy ride, it is designed only for those who want to
+                  become experts in their fields.
+                </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
-    </section>
+            <div class="alum_down">
+              <div>
+                <h3>Exclusive Job Listings</h3>
+                <p class="edit">
+                  You will be tested on everything including your current subjects,
+                  industry knowledge and practical projects. Your grades will be
+                  earned by your performance and will reflect as GPA in your
+                  transcript. You must reach the required threshold GPA of your
+                  program before you can graduate. Other things that will contribute
+                  to your GPA are your performances with the internships and
+                  extra-curricular activities. Your program is also broken into
+                  courses with their own credit units.
+                </p>
+              </div>
+              <div>
+                <h3 id="hards"> Opportunities to Give Back</h3>
+                <p id="hards-p">
+                  A successful career is the end goal of your learning endeavors and
+                  we at Pluralcode understand this deeply. Our solution is to give you
+                  a ladder that takes you straight into the professional world.
+                  Networking opportunities, free advisory sessions, internationally
+                  recognized diploma, real portfolio, mandatory internships and job
+                  recommendations. These are just some of the ways we ensure your
+                  post-graduation career path is paved.
+                </p>
+              </div>
+            </div>
+          </section>
+    </div>
 
-
-    <section class="alum_memb mt-4">
-      <h2 class="text-center p-5">
-        What <span class="broo">Alumni Membership</span> Offer
-      </h2>
-      <div class="alum_up">
-        <img src="./assets/Frame 110.png" alt="" />
-        <div>
-          <h3>Professional Network</h3>
-          <p class="edit-1">
-            Your Tech Diploma is a 7-month intense academic exercise that is
-            designed to cut through the noise and give you only
-            industry-standard skills, experience and certification. Classes are
-            taught by certified experts, demanding examinations every semester,
-            real-life projects defense and compulsory internships. Tech Diploma
-            is not an easy ride, it is designed only for those who want to
-            become experts in their fields.
-          </p>
-        </div>
-      </div>
-      <div class="alum_down">
-        <div>
-          <h3>Exclusive Job Listings</h3>
-          <p class="edit">
-            You will be tested on everything including your current subjects,
-            industry knowledge and practical projects. Your grades will be
-            earned by your performance and will reflect as GPA in your
-            transcript. You must reach the required threshold GPA of your
-            program before you can graduate. Other things that will contribute
-            to your GPA are your performances with the internships and
-            extra-curricular activities. Your program is also broken into
-            courses with their own credit units.
-          </p>
-        </div>
-        <div>
-          <h3 id="hards"> Opportunities to Give Back</h3>
-          <p id="hards-p">
-            A successful career is the end goal of your learning endeavors and
-            we at Pluralcode understand this deeply. Our solution is to give you
-            a ladder that takes you straight into the professional world.
-            Networking opportunities, free advisory sessions, internationally
-            recognized diploma, real portfolio, mandatory internships and job
-            recommendations. These are just some of the ways we ensure your
-            post-graduation career path is paved.
-          </p>
-        </div>
-      </div>
-    </section>
-
+   
+    
 
     <section class="alum_memb-1 mt-5">
+      <div data-aos="fade-right"
+        data-aos-duration="3000">
         <div class="alum_up-1">
           <div>
             <h3>Access to College <br>Resources</h3>
@@ -156,7 +214,7 @@
                 Your Tech Diploma is a 7-month intense academic exercise that is designed to cut through the noise and give you only industry-standard skills, experience and certification. Classes are taught by certified experts, demanding examinations every semester, real-life projects defense and compulsory internships. Tech Diploma is not an easy ride, it is designed only for those who want to become experts.
             </p>
           </div>
-
+  
           <img src="/assets/discuss.png" class="stress" alt="">
         </div>
         <div class="alum_down-1">
@@ -186,136 +244,169 @@
             </p>
           </div>
         </div>
-      </section>
-
-
-    <section class="reach-top">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-1"></div>
-            <div class="col-sm-12 col-md-12 col-lg-10">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                    <div class="reaching">
-                        <div class="reach-out">
-                            <h2> Reach Out to Us</h2>
-                            <div class="call-icon mt-5">
-                              <div>
-                                <img src="/assets/phone-call 1.png" alt="">
-                              </div>
-                              <div>
-                                 <p>+(234) 012-345-6789, +(234) 123-456-7890.</p>
-                              </div>
-                            </div>
-                            <div class="twitter-icon">
-                              <div>
-                                <img src="/assets/Twitter Outline.png" alt="">
-                              </div>
-                              <div>
-                                  <p>Lascohet_alumni</p>
-                              </div>
-                            </div>
-
-                            <div class="instagram-icon">
-                              <div>
-                                <img src="/assets/Instagram Outline.png" alt="">
-                              </div>
-                              <div>
-                                  <p>Lascohet_alumni</p>
-                              </div>
-                            </div>
-
-                            <div class="facebook-icon">
-                              <div>
-                                <img src="/assets/Facebook Outline.png" alt="">
-                              </div>
-                              <div>
-                                  <p>Lascohet_alumni</p>
-                              </div>
-                            </div>
-
-                            <div class="mail-icon">
-                              <div>
-                                  <img src="/assets/envelope 2.png" alt="">
-                              </div>
-                              <div>
-                                  <p>support@lascohet.aluimni | support@lascohet.aluimni</p>
-                              </div>
-                            </div>
-
-                            <div class="location-icon">
-                              <div>
-                                  <img src="/assets/marker 1.png" alt="">
-                              </div>
-                              <div>
-
-                                <p>11 Toyin Street Ikeja, Lagos State</p>
-                                  
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                    <div class="col-sm-12 col-md-12 col-lg-6">
-                        <div class="reach-image">
-                            <img src="/assets/Group 27.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
+    </div>
     </section>
 
-    <div class="row mt-5 relay ">
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      <div class="col-sm-12 col-md-12 col-lg-10">
-    <p>Follow us on all social media platforms</p>
+   
+    <div data-aos="fade-down-right"
+            data-aos-duration="1500">
+            <section class="reach-top">
+              <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                  <div class="col-sm-12 col-md-12 col-lg-10">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                          <div class="reaching">
+                              <div class="reach-out">
+                                  <h2> Reach Out to Us</h2>
+                                  <div class="call-icon mt-5">
+                                    <div>
+                                      <img src="/assets/phone-call 1.png" alt="">
+                                    </div>
+                                    <div>
+                                       <p>+(234) 012-345-6789, +(234) 123-456-7890.</p>
+                                    </div>
+                                  </div>
+                                  <div class="twitter-icon">
+                                    <div>
+                                      <img src="/assets/Twitter Outline.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Lascohet_alumni</p>
+                                    </div>
+                                  </div>
+      
+                                  <div class="instagram-icon">
+                                    <div>
+                                      <img src="/assets/Instagram Outline.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Lascohet_alumni</p>
+                                    </div>
+                                  </div>
+      
+                                  <div class="facebook-icon">
+                                    <div>
+                                      <img src="/assets/Facebook Outline.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Lascohet_alumni</p>
+                                    </div>
+                                  </div>
+      
+                                  <div class="mail-icon">
+                                    <div>
+                                        <img src="/assets/envelope 2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>support@lascohet.aluimni | support@lascohet.aluimni</p>
+                                    </div>
+                                  </div>
+      
+                                  <div class="location-icon">
+                                    <div>
+                                        <img src="/assets/marker 1.png" alt="">
+                                    </div>
+                                    <div>
+      
+                                      <p>11 Toyin Street Ikeja, Lagos State</p>
+                                        
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  
+                          <div class="col-sm-12 col-md-12 col-lg-6">
+                              <div class="reach-image">
+                                  <img src="/assets/Group 27.png" alt="">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              </div>
+          </section>
+    </div>
 
-        <div class="socials-icons">
-          <div>
-            <img src="/assets/bi_instagram.png" alt="" class="mr-2"/>
-          </div>
-          <div>
-            <img src="/assets/Group.png" alt="" class="mr-2" />
-          </div>
-          <div>
-            <img src="/assets/Group (1).png" alt=""  class="mr-2"/>
-          </div>
-          <div>
-            <img src="/assets/Group (2).png" alt="" class="mr-2" />
+   
+
+
+
+    <section class="color-change">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+          <div data-aos="zoom-in"
+                data-aos-duration="1500"> 
+              <div class="footer">
+                <div class="footer-contents">
+                  <div class="logo">
+                    <img src="/assets/Logo2.png" alt="" class="w-75 pt-2" />
+                  </div>
+                  <p class="website">
+                    This is the official website of the Lagos State College of
+                    Health Technology Alumni,
+                  </p>
+                </div>
+
+                <div class="contact pt-3">
+                  <h5>Contact us</h5>
+                  <p>Phone Number</p>
+                  <p>Support@thelascohetalumni.org</p>
+                  <p>info@thelascohetalumni.org</p>
+                </div>
+
+                <div class="links pt-3">
+                  <h5>Useful links</h5>
+                  <p>Lascohet website</p>
+                  <p>Lascohet Portal</p>
+                  <p>E-clearance</p>
+                </div>
+
+                <div class="navigate pt-3">
+                  <h5>Quick Navigation</h5>
+                  <p>Create Alumni Account</p>
+                  <p>My Account</p>
+                  <p>Pay Alumni fee</p>
+                </div>
+
+                <div class="address pt-3">
+                  <h5>Address</h5>
+                  <p>8, Harvey Road, Yaba, Lagos.</p>
+                </div>
+              </div>
+              <div class="row mt-5 relay ">
+                <!-- <div class="col-sm-12 col-md-12 col-lg-1"></div> -->
+                <div class="col-sm-12 col-md-12 col-lg-10">
+              <p>Follow us on all social media platforms</p>
+        
+                  <div class="socials-icons">
+                    <div>
+                      <img src="/assets/bi_instagram.png" alt="" class="mr-2"/>
+                    </div>
+                    <div>
+                      <img src="/assets/Group.png" alt="" class="mr-2" />
+                    </div>
+                    <div>
+                      <img src="/assets/Group (1).png" alt=""  class="mr-2"/>
+                    </div>
+                    <div>
+                      <img src="/assets/Group (2).png" alt="" class="mr-2" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-1"></div> 
+              </div>
           </div>
         </div>
+        <div class="col-sm-12 col-md-12 colg-1"></div>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-1"></div> 
-    </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
+    </section>
 
-
-
-      
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script class="index.js"></script>
+  
+  
+    <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -326,5 +417,9 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>

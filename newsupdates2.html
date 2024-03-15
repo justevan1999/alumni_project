@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
       rel="stylesheet"
@@ -28,110 +33,64 @@
     <title>ALUMNI</title>
   </head>
   <body>
-    <header class="navbox">
+    <header>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10 relative">
-            <nav class="d-flex align-items-center pt-2 justify-content-between">
-            
-              <div class="nav-logo">
-                <a href="index.html">
-                  <img src="/assets/Logo.png" alt="">
-                </a>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+          <nav class="d-flex align-items-center">
+            <div id="home-img" class="logos">
+              <a href="/index.html">
+                <img
+                src="./assets/loscohet_logo.png"
+                alt="Company Brand"
+                class="logo_lg"
+              />
+              </a>
+             
+              <img
+                src="./assets/logo_rounded.png"
+                alt="Company Brand"
+                class="logo_sm"
+              />
+            </div>
+            <ul class="">
+              <li><a href="/">Home</a></li>
+              <li><a href="/About.html">About</a></li>
+              <li><a href="/Newupdates.html">New Updates</a></li>
+              <li><a href="/membership.html">Membership</a></li>
+              <li><a href="/executives.html">Executive Comittee</a></li>
+            </ul>
+            <div class="nav_btns">
+              <button id="goToContact">Contact Us</button>
+              <button id="goToCheckOut">Create Alumni Account</button>
+            </div>
+      
+            <div class="sm_ul" id="sm_ul">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/About.html">About</a></li>
+                <li><a href="/Newupdates.html">New Updates</a></li>
+                <li><a href="/membership.html">Membership</a></li>
+                <li><a href="/executives.html">Executive Comittee</a></li>
+              </ul>
+                <div class="nav_btns">
+                  <button id="goToContact">Contact Us</button>
+                  <button id="goToCheckOut">Get Involved</button>                      
               </div>
-              <div class="nav-logo2">
-                <img src="/assets/Artboard 3 1.png" alt="" width="100%">
-              </div>
-                <div class="top-nav d-flex align-items-center justify-content-between">
-                  <!-- <div class="nav-details"> -->
-                      <div class="nav-infom">
-                        <ul class="nav-list pt-3">
-                          <a href="index.html">
-                            <li>Home</li>
-                          </a>
-
-                          <a href="About.html">
-                            <li>About</li>
-                          </a>
-                         
-                          <a href="Newupdates.html">
-                          <li>News Updates</li>
-                          </a>
-
-                          <a href="membership.html">
-                            <li>Membership</li>
-                          </a>
-                        </ul>
-                      </div>
-                  <!-- </div> -->
-                  <div class="nav-bts ">
-                      <div>
-                        <button class="new-one">Contact Us</button>
-                      </div>
-                      <div>
-                        <a href="form.html">
-                          <button class="new-two">Get Involved</button>
-                        </a>
-                      </div>
-                  </div>
-                </div>
-                <div class="iconssss">
-                  <img class="" id="navSmall" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAiElEQVR4nO3YwRGAIAxEUcrTsQdCH5oGSJdqH3qyADEjKP/NcGdP2dkQAABAg0RtSpr3pHbUfLLYFtXG+wEW22p/Pl0hNK/9BYhqYwshRPMqcx5uBwAA9E0cu1Bxn3nC+woX1YGuA0THLkSfAQD8fhcS775UY5EQz7rx+QDx5V1I2H8AAAjfcwI8FTi/DCbpogAAAABJRU5ErkJggg==">
-                </div>
-                
-            </nav>
-              <!-- small nav -->
-              <div class="aim" id="myaim" style="display: none;">
-                <div class="top-naves ">
-                  <div class="nav-details">
-                      
-                      <div class="wow" id="tap">
-                        <div class="nav-infrom" id="tap">
-                          <ul class="nav-listed" id="tap">
-                            <a href="index.html">
-                              <li>Home</li>
-                            </a>
-  
-                            <a href="About.html">
-                              <li>About</li>
-                            </a>
-                           
-                            <a href="Newupdates.html">
-                            <li>News Updates</li>
-                            </a>
-  
-                            <a href="membership.html">
-                              <li>Membership</li>
-                            </a>
-                          </ul>
-                        </div>
-                        <div class="nav-btes">
-                          <div>
-                            <button class="new-one">Contact Us</button>
-                          </div>
-                          <div>
-                            <a href="form.html">
-                              <button class="new-two">Get Involved</button>
-                            </a>
-                          </div>
-                      </div>
-                    </div>
-                      </div>
-                    
-                </div>
-                
-              </div>
-              <!-- small nav -->
+            </div>
+            <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
+          </nav>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
+    
       </div>
     </header>
 
 
   <div data-aos="fade-down"
-        data-aos-duration="1500">
+        data-aos-duration="2000">
         <section>
-          <div class="row">
+          <div class="row foes">
             <div class="col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-sm-12 col-md-12 col-lg-10">
               <style>
@@ -236,28 +195,10 @@
 
   </section>
 </div>
-
-    
-
-
-    <section>
-      <div class="form">
-        <div class="form-text">
-          <h1>Make sure you dont miss a thing...</h1>
-          <p class="form-p">Get informed for new updates</p>
-        </div>
-        <form action="">
-          <input type="text" placeholder="Enter Your Email Address" />
-          <button type="submit uppp">Add Me Up</button>
-        </form>
-      </div>
-    </section>
-
-
     <div class="row whole">
       <div class="col-sm-12 col-md-12 col-lg-1"></div>
       <div class="col-sm-12 col-md-12 col-lg-10">
-        <div class="footer">
+          <div class="footer">
           <div class="footer-contents">
             <div class="logo">
               <img src="/assets/Logo2.png" alt="" class="w-75 pt-2" />
@@ -293,8 +234,8 @@
             <h5>Address</h5>
             <p>8, Harvey Road, Yaba, Lagos.</p>
           </div>
-        </div>
-        <div class="mt-5 relay justify-content-space-between">
+          </div>
+          <div class="mt-5 relay justify-content-space-between">
           <p>Follow us on all social media platforms</p>
           <div class="socials-icons">
             <div>
@@ -310,12 +251,31 @@
               <img src="/assets/Group (2).png" alt="" class="mr-2" />
             </div>
           </div>
-        </div>
+          </div>
+        
       </div>
       <div class="col-sm-12 col-md-12 col-lg-1"></div>
     </div>
 
     <script src="index.js"></script>
+
+    <script>
+      document.getElementById('home-img').onclick = function(){
+        window.location.href = 'index.html';
+      }
+    </script>
+
+    <script>
+      document.getElementById('goToCheckOut').onclick = function() {
+          window.location.href = 'form.html'; // Change 'about.html' to your desired URL
+      };
+  </script>
+
+  <script>
+    document.getElementById('goToContact').onclick = function(){
+      window.location.href = 'reachout.html'
+    }
+  </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -326,33 +286,6 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        autoplay: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
-    </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

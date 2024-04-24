@@ -20,33 +20,33 @@
 
     <title>ALUMNI</title>
   </head>
-  <body onload="showDetails()">
+  <body>
     <header>
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
             <nav class="d-flex align-items-center">
               <div id="home-img" class="logos">
-                <a href="/index.html">
+                <a href="index.php">
                   <img
-                  src="./assets/loscohet_logo.png"
+                  src="assets/loscohet_logo.png"
                   alt="Company Brand"
                   class="logo_lg"
                 />
                 </a>
                
                 <img
-                  src="./assets/logo_rounded.png"
+                  src="assets/logo_rounded.png"
                   alt="Company Brand"
                   class="logo_sm"
                 />
               </div>
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/Newupdates.html">New Updates</a></li>
-                <li><a href="/membership.html">Membership</a></li>
-                <li><a href="/executives.html">Executive Comittee</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="newupdates.php">New Updates</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
               <div class="nav_btns">
                 <button id="goToContact">Contact Us</button>
@@ -56,14 +56,18 @@
               <div class="sm_ul" id="sm_ul">
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="/About.html">About</a></li>
-                  <li><a href="/Newupdates.html">New Updates</a></li>
-                  <li><a href="/membership.html">Membership</a></li>
-                  <li><a href="/executives.html">Executive Comittee</a></li>
+                  <li><a href="about.php">About</a></li>
+                  <li><a href="newupdates.php">New Updates</a></li>
+                  <li><a href="membership.php">Membership</a></li>
+                  <li><a href="executives.php">Executive Comittee</a></li>
                 </ul>
-                  <div class="nav_btns">
-                    <button id="goToContact">Contact Us</button>
-                    <button id="goToCheckOut">Pay Alunmi Fee</button>                     
+                <div class="nav_btns">
+                  <a href="reachout.php">
+                    <button>Contact Us</button>  
+                  </a>
+                  <a href="checkout.php">
+                    <button class="btn-pay">Pay Alunmi Fee</button>                     
+                  </a>
                 </div>
               </div>
               <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
@@ -79,7 +83,7 @@
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
-          <div class="Details">
+          <div class="details">
             <div class="executive-members mt-5">
                 <div class="memberrr">
                     
@@ -110,22 +114,21 @@
 
     
     </section>
-    <script src="index.js"></script>
 
     <script>
         document.getElementById('home-img').onclick = function(){
-          window.location.href = 'index.html';
+          window.location.href = 'index.php';
         }
       </script>
     <script>
         document.getElementById('goToCheckOut').onclick = function() {
-            window.location.href = 'form.html'; // Change 'about.html' to your desired URL
+            window.location.href = 'form.php'; // Change 'about.html' to your desired URL
         };
     </script>
 
     <script>
       document.getElementById('goToContact').onclick = function(){
-        window.location.href = 'reachout.html'
+        window.location.href = 'reachout.php'
       }
     </script>
     <script
@@ -139,5 +142,7 @@
       crossorigin="anonymous"
     ></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="index.js"></script>
+
   </body>
 </html>

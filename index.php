@@ -27,44 +27,47 @@
         <div class="col-sm-12 col-md-12 col-lg-10">
           <nav class="d-flex align-items-center">
             <div id="home-img" class="logos">
-              <a href="/index.html">
+              <a href="index.php">
                 <img
-                src="./assets/loscohet_logo.png"
+                src="assets/loscohet_logo.png"
                 alt="Company Brand"
                 class="logo_lg"
               />
               </a>
              
               <img
-                src="./assets/logo_rounded.png"
+                src="assets/logo_rounded.png"
                 alt="Company Brand"
                 class="logo_sm"
               />
             </div>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/About.html">About</a></li>
-              <li><a href="/Newupdates.html">New Updates</a></li>
-              <li><a href="/membership.html">Membership</a></li>
-              <li><a href="/executives.html">Executive Comittee</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="newupdates.php">New Updates</a></li>
+              <li><a href="membership.php">Membership</a></li>
+              <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
             <div class="nav_btns">
               <button id="goToContact">Contact Us</button>
               <button id="goToCheckOut">Pay Alunmi Fee</button>
             </div>
-      
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/Newupdates.html">New Updates</a></li>
-                <li><a href="/membership.html">Membership</a></li>
-                <li><a href="/executives.html">Executive Comittee</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="newupdates.php">New Updates</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
                 <div class="nav_btns">
-                  <button id="goToContact">Contact Us</button>
-                  <button id="goToCheckOut">Pay Alunmi Fee</button>                     
-              </div>
+                  <a href="reachout.php">
+                    <button>Contact Us</button>  
+                  </a>
+                  <a href="checkout.php">
+                    <button class="btn-pay">Pay Alunmi Fee</button>                     
+                  </a>
+                </div>
             </div>
             <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
           </nav>
@@ -130,7 +133,6 @@
     </header> -->
 
     <section>
-      
           <div class="hero-section">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -165,16 +167,16 @@
     </section>
 
     
-      <div data-aos="fade-up"
-            data-aos-duration="1500">
+         <div data-aos="fade-up"
+              data-aos-duration="1500">
             <section class="box-section">
-              <div class="row">
+               <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-sm-12 col-md-12 col-lg-10">
                   <div class="row text-center top">
                       <div class="col-sm-12 col-md-12 col-lg-4">
                         <div class="box-1">
-                          <img src="/assets/today.png" alt="" />
+                          <img src="assets/today.png" alt="" />
                           <h5>Membership</h5>
                           <p>
                             Sign up to be a member of the <br />
@@ -184,7 +186,7 @@
                       </div> 
                         <div class="col-sm-12 col-md-12 col-lg-4">
                           <div class="box-2">
-                            <img src="/assets/today.png" alt="" />
+                            <img src="assets/today.png" alt="" />
                             <h5>Get involved</h5>
                             <p>
                               Be part of the alumni journey to <br />
@@ -194,7 +196,7 @@
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
                           <div class="box-3">
-                            <img src="/assets/today.png" alt="" />
+                            <img src="assets/today.png" alt="" />
                             <h5>Newsletters</h5>
                             <p>Do not miss out on any <br />information from us.</p>
                           </div>
@@ -262,16 +264,16 @@
                 </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-1"></div>
-              </div>
+                </div>
             </section>
-</div>
+        </div>
     
 
-    <div data-aos="fade-down"
-        data-aos-easing="linear"
+      <div data-aos="fade-down"
+          data-aos-easing="linear"
           data-aos-duration="1500">
         <section class="add-sec">
-  <div class="row mt-5">
+        <div class="row mt-5">
     <div class="col-sm-12 col-md-12 col-lg-1"></div>
     <div class="col-sm-12 col-md-12 col-lg-10">
       <div class="address-section">
@@ -308,14 +310,14 @@
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="address-image">
-              <img src="/assets/Group 4.png" alt="" />
+              <img src="assets/Group 4.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-md-12 col-lg-1"></div>
-  </div>
+        </div>
         </section>
     </div>
   
@@ -332,7 +334,7 @@
           <div class="associate">
             <div class="col-md-12 col-md-12 col-lg-6">
               <div class="associate-image">
-                <img src="/assets/Frame 2.png" alt="" />
+                <img src="assets/Frame 2.png" alt="" />
               </div>
             </div>
             <div class="col-md-12 col-md-12 col-lg-6 associate-text">
@@ -368,7 +370,7 @@
         <div class="col-md-12 col-md-12 col-lg-1"></div>
         <div class="col-md-12 col-md-12 col-lg-10">
           <div class="whole-image mt-5">
-            <img src="/assets/Group 20646.png" alt="" />
+            <img src="assets/Group 20646.png" alt="" />
           </div>
         </div>
         <div class="col-md-12 col-md-12 col-lg-1"></div>
@@ -387,7 +389,7 @@
                           <div class="card-1">
                             <div class="card-section-item">
                               <div class="card-header">
-                                <img src="/assets/image 65.png" alt="" />
+                                <img src="assets/image 65.png" alt="" />
                               </div>
                               <div class="card-body">
                                 <h2 class="card-title">
@@ -418,7 +420,7 @@
                           <div div class="card-1">
                             <div class="card-section-item">
                               <div class="card-header">
-                                <img src="/assets/image 65 (1).png" alt="" />
+                                <img src="assets/image 65 (1).png" alt="" />
                               </div>
                               <div class="card-body">
                                 <h2 class="card-title">
@@ -462,7 +464,7 @@
                     <div class="footer">
                       <div class="footer-contents">
                         <div class="logo">
-                          <img src="/assets/Logo2.png" alt="" class="w-75 pt-2"/>
+                          <img src="assets/Logo2.png" alt="" class="w-75 pt-2"/>
                         </div>
                         <p class="website">
                           This is the official website of the Lagos State College of
@@ -503,20 +505,31 @@
                   <div class="col-sm-12 col-md-12 col-lg-1"></div>
                   <div class="col-sm-12 col-md-12 col-lg-10">
                 <p>Follow us on all social media platforms</p>
-                    <div class="socials-icons">
-                      <div>
-                        <img src="/assets/bi_instagram.png" alt="" class="mr-2"/>
-                      </div>
-                      <div>
-                        <img src="/assets/Group.png" alt="" class="mr-2" />
-                      </div>
-                      <div>
-                        <img src="/assets/Group (1).png" alt=""  class="mr-2"/>
-                      </div>
-                      <div>
-                        <img src="/assets/Group (2).png" alt="" class="mr-2" />
-                      </div>
+                <div class="socials-icons">
+                    <div>
+                      <a href="https://instagram.com" target="_blank">
+                      <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
+                      </a>
                     </div>
+                    <div>
+
+                    <a href="https://facebook.com" target="_blank">
+                      <img src="assets/Group.png" alt="" class="mr-2" />
+                    </a>
+                    </div>
+
+                    <div>
+                      <a href="https://twitter.com/helascohet_tla" target="_blank">
+                      <img src="assets/Group (1).png" alt=""  class="mr-2"/>
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href="https://linkedin.com" target="_blank">
+                      <img src="assets/Group (2).png" alt="" class="mr-2" />
+                      </a>
+                    </div>
+                  </div>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-1"></div> 
                 </div>  
@@ -534,19 +547,19 @@
 
   <script>
     document.getElementById('home-img').onclick = function(){
-      window.location.href = 'index.html';
+      window.location.href = 'index.php';
     }
   </script>
 
     <script>
         document.getElementById('goToCheckOut').onclick = function() {
-            window.location.href = 'form.html'; // Change 'about.html' to your desired URL
+            window.location.href = 'form.php'; // Change 'about.html' to your desired URL
         };
     </script>
 
     <script>
       document.getElementById('goToContact').onclick = function(){
-        window.location.href = 'reachout.html';
+        window.location.href = 'reachout.php';
       }
     </script>
     <script

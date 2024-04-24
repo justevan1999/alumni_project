@@ -39,26 +39,26 @@
         <div class="col-sm-12 col-md-12 col-lg-10">
           <nav class="d-flex align-items-center">
             <div id="home-img" class="logos">
-              <a href="/index.html">
+              <a href="index.php">
                 <img
-                src="./assets/loscohet_logo.png"
+                src="assets/loscohet_logo.png"
                 alt="Company Brand"
                 class="logo_lg"
               />
               </a>
              
               <img
-                src="./assets/logo_rounded.png"
+                src="assets/logo_rounded.png"
                 alt="Company Brand"
                 class="logo_sm"
               />
             </div>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/About.html">About</a></li>
-              <li><a href="/Newupdates.html">New Updates</a></li>
-              <li><a href="/membership.html">Membership</a></li>
-              <li><a href="/executives.html">Executive Comittee</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="newupdates.php">New Updates</a></li>
+              <li><a href="membership.php">Membership</a></li>
+              <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
             <div class="nav_btns">
               <button id="goToContact">Contact Us</button>
@@ -67,15 +67,19 @@
       
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/Newupdates.html">New Updates</a></li>
-                <li><a href="/membership.html">Membership</a></li>
-                <li><a href="/executives.html">Executive Comittee</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="newupdates.php">New Updates</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
-                <div class="nav_btns">
-                  <button id="goToContact">Contact Us</button>
-                  <button id="goToCheckOut">Pay Alunmi Fee</button>                     
+              <div class="nav_btns">
+                <a href="reachout.php">
+                  <button>Contact Us</button>  
+                </a>
+                <a href="checkout.php">
+                  <button class="btn-pay">Pay Alunmi Fee</button>                     
+                </a>
               </div>
             </div>
             <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
@@ -104,7 +108,7 @@
               <div class="wee">
                 <div class="box">
                   <img
-                    src="/assets/image 69.png"
+                    src="assets/image 69.png"
                     style="float: left; margin: 15px"
                     alt=""
                   />
@@ -113,7 +117,7 @@
                   <div class="speak-text">
                     <div class="spek pt-3">
                       <div class="spek-img">
-                        <img src="/assets/Ellipse 8.png" alt="" />
+                        <img src="assets/Ellipse 8.png" alt="" />
                       </div>
                       <div class="pt-3">
                         <h6>By Younergy</h6>
@@ -187,10 +191,10 @@
         <h1>Make sure you dont miss a thing...</h1>
         <p class="form-p">Get informed for new updates</p>
       </div>
-      <form action=""> 
-        <input type="text" placeholder="Enter Your Email Address">
-        <button type="submit uppp">Add Me Up</button>
-      </form>
+          <form> 
+            <input style="width: 30% !important; " type="text" placeholder="Enter Your Email Address">
+            <button type="submit uppp">Add Me Up</button>
+          </form>
     </div>
 
   </section>
@@ -201,7 +205,7 @@
           <div class="footer">
           <div class="footer-contents">
             <div class="logo">
-              <img src="/assets/Logo2.png" alt="" class="w-75 pt-2" />
+              <img src="assets/Logo2.png" alt="" class="w-75 pt-2" />
             </div>
             <p class="website">
               This is the official website of the Lagos State College of Health
@@ -238,19 +242,30 @@
           <div class="mt-5 relay justify-content-space-between">
           <p>Follow us on all social media platforms</p>
           <div class="socials-icons">
-            <div>
-              <img src="/assets/bi_instagram.png" alt="" class="mr-2" />
-            </div>
-            <div>
-              <img src="/assets/Group.png" alt="" class="mr-2" />
-            </div>
-            <div>
-              <img src="/assets/Group (1).png" alt="" class="mr-2" />
-            </div>
-            <div>
-              <img src="/assets/Group (2).png" alt="" class="mr-2" />
-            </div>
-          </div>
+                    <div>
+                      <a href="https://instagram.com" target="_blank">
+                      <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
+                      </a>
+                    </div>
+                    <div>
+
+                    <a href="https://facebook.com" target="_blank">
+                      <img src="assets/Group.png" alt="" class="mr-2" />
+                    </a>
+                    </div>
+
+                    <div>
+                      <a href="https://twitter.com/helascohet_tla" target="_blank">
+                      <img src="assets/Group (1).png" alt=""  class="mr-2"/>
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href="https://linkedin.com" target="_blank">
+                      <img src="assets/Group (2).png" alt="" class="mr-2" />
+                      </a>
+                    </div>
+                  </div>
           </div>
         
       </div>
@@ -261,19 +276,19 @@
 
     <script>
       document.getElementById('home-img').onclick = function(){
-        window.location.href = 'index.html';
+        window.location.href = 'index.php';
       }
     </script>
 
     <script>
       document.getElementById('goToCheckOut').onclick = function() {
-          window.location.href = 'form.html'; // Change 'about.html' to your desired URL
+          window.location.href = 'form.php'; // Change 'about.html' to your desired URL
       };
   </script>
 
   <script>
     document.getElementById('goToContact').onclick = function(){
-      window.location.href = 'reachout.html'
+      window.location.href = 'reachout.php'
     }
   </script>
     <script

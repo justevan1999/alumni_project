@@ -20,26 +20,26 @@
         <div class="col-sm-12 col-md-12 col-lg-10">
           <nav class="d-flex align-items-center">
             <div id="home-img" class="logos">
-              <a href="/index.html">
+              <a href="index.php">
                 <img
-                src="./assets/loscohet_logo.png"
+                src="assets/loscohet_logo.png"
                 alt="Company Brand"
                 class="logo_lg"
               />
               </a>
              
               <img
-                src="./assets/logo_rounded.png"
+                src="assets/logo_rounded.png"
                 alt="Company Brand"
                 class="logo_sm"
               />
             </div>
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/About.html">About</a></li>
-              <li><a href="/Newupdates.html">New Updates</a></li>
-              <li><a href="/membership.html">Membership</a></li>
-              <li><a href="/executives.html">Executive Comittee</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="newupdates.php">New Updates</a></li>
+              <li><a href="membership.php">Membership</a></li>
+              <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
             <div class="nav_btns">
               <button id="goToContact">Contact Us</button>
@@ -48,15 +48,19 @@
       
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/Newupdates.html">New Updates</a></li>
-                <li><a href="/membership.html">Membership</a></li>
-                <li><a href="/executives.html">Executive Comittee</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="newupdates.php">New Updates</a></li>
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
-                <div class="nav_btns">
-                  <button id="goToContact">Contact Us</button>
-                  <button id="goToCheckOut">Pay Alunmi Fee</button>                     
+              <div class="nav_btns">
+                <a href="reachout.php">
+                  <button>Contact Us</button>  
+                </a>
+                <a href="checkout.php">
+                  <button class="btn-pay">Pay Alunmi Fee</button>                     
+                </a>
               </div>
             </div>
             <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
@@ -81,7 +85,7 @@
                                   <h2> Reach Out to Us</h2>
                                   <div class="call-icon mt-5">
                                     <div>
-                                      <img src="/assets/phone-call 1.png" alt="">
+                                      <img src="assets/phone-call 1.png" alt="">
                                     </div>
                                     <div>
                                        <p>+(234) 012-345-6789, +(234) 123-456-7890.</p>
@@ -89,7 +93,7 @@
                                   </div>
                                   <div class="twitter-icon">
                                     <div>
-                                      <img src="/assets/Twitter Outline.png" alt="">
+                                      <img src="assets/Twitter Outline.png" alt="">
                                     </div>
                                     <div>
                                         <p>Lascohet_alumni</p>
@@ -98,7 +102,7 @@
       
                                   <div class="instagram-icon">
                                     <div>
-                                      <img src="/assets/Instagram Outline.png" alt="">
+                                      <img src="assets/Instagram Outline.png" alt="">
                                     </div>
                                     <div>
                                         <p>Lascohet_alumni</p>
@@ -107,7 +111,7 @@
       
                                   <div class="facebook-icon">
                                     <div>
-                                      <img src="/assets/Facebook Outline.png" alt="">
+                                      <img src="assets/Facebook Outline.png" alt="">
                                     </div>
                                     <div>
                                         <p>Lascohet_alumni</p>
@@ -116,7 +120,7 @@
       
                                   <div class="mail-icon">
                                     <div>
-                                        <img src="/assets/envelope 2.png" alt="">
+                                        <img src="assets/envelope 2.png" alt="">
                                     </div>
                                     <div>
                                         <p>support@lascohet.aluimni | support@lascohet.aluimni</p>
@@ -125,7 +129,7 @@
       
                                   <div class="location-icon">
                                     <div>
-                                        <img src="/assets/marker 1.png" alt="">
+                                        <img src="assets/marker 1.png" alt="">
                                     </div>
                                     <div>
       
@@ -139,7 +143,7 @@
                   
                           <div class="col-sm-12 col-md-12 col-lg-6">
                               <div class="reach-image">
-                                  <img src="/assets/Group 27.png" alt="">
+                                  <img src="assets/Group 27.png" alt="">
                               </div>
                           </div>
                       </div>
@@ -156,7 +160,7 @@
               <div class="footer">
                 <div class="footer-contents">
                   <div class="logo">
-                    <img src="/assets/Logo2.png" alt="" class="w-75 pt-2" />
+                    <img src="assets/Logo2.png" alt="" class="w-75 pt-2" />
                   </div>
                   <p class="website">
                     This is the official website of the Lagos State College of
@@ -198,25 +202,25 @@
                   <div class="socials-icons">
                     <div>
                       <a href="https://instagram.com" target="_blank">
-                      <img src="/assets/bi_instagram.png"  alt="" class="mr-2"/>
+                      <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
                     <div>
 
                     <a href="https://facebook.com" target="_blank">
-                      <img src="/assets/Group.png" alt="" class="mr-2" />
+                      <img src="assets/Group.png" alt="" class="mr-2" />
                     </a>
                     </div>
 
                     <div>
-                      <a href="https://twitter.com" target="_blank">
-                      <img src="/assets/Group (1).png" alt=""  class="mr-2"/>
+                      <a href="https://twitter.com/helascohet_tla" target="_blank">
+                      <img src="assets/Group (1).png" alt=""  class="mr-2"/>
                       </a>
                     </div>
 
                     <div>
                       <a href="https://linkedin.com" target="_blank">
-                      <img src="/assets/Group (2).png" alt="" class="mr-2" />
+                      <img src="assets/Group (2).png" alt="" class="mr-2" />
                       </a>
                     </div>
                   </div>
@@ -233,19 +237,19 @@
 
     <script>
       document.getElementById('home-img').onclick = function(){
-        window.location.href = 'index.html';
+        window.location.href = 'index.php';
       }
     </script>
 
     <script>
       document.getElementById('goToCheckOut').onclick = function() {
-          window.location.href = 'form.html'; // Change 'about.html' to your desired URL
+          window.location.href = 'form.php'; // Change 'about.html' to your desired URL
       };
   </script>
 
   <script>
     document.getElementById('goToContact').onclick = function(){
-      window.location.href = 'reachout.html'
+      window.location.href = 'reachout.php'
     }
   </script>
     <script

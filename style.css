@@ -12,6 +12,15 @@
   --font-normal: 16px;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
 * {
   font-family: "Lexend", sans-serif;
   /* padding: 0; */
@@ -125,10 +134,10 @@ nav .nav_btns button {
   font-size: var(--font-sm);
 }
 
-nav .nav_btns button:nth-child(2) {
+nav .nav_btns button:nth-child(2), .btn-pay {
   width: 130px;
   /* height: 38px; */
-  padding: 5.5px 11px;
+  padding: 5.5px 8.4px;
   background-color: var(--main-red);
   color: #fff;
   border-radius: 3.5px;
@@ -232,7 +241,7 @@ nav .sm_ul {
   margin-top: 20px;
   background-size: cover;
   /* position: relative; */
-  background-image: url(/assets/Group\ 20648.png);
+  background-image: url(assets/Group\ 20648.png);
 }
 
 .karma {
@@ -654,6 +663,10 @@ align-items: center; */
   font-weight: 700;
 }
 
+form h6 {
+  font-size: 14px;
+}
+
 .form-p {
   font-weight: 300;
   font-size: 24px;
@@ -666,12 +679,17 @@ align-items: center; */
 }
 
 .form input {
+  width: 100% !important;
   border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 8px;
   padding: 10px 110px 10px 10px;
   color: #fff;
   outline: #fff;
+}
+
+.form input::placeholder {
+  color: #fff !important;
 }
 
 /* .form form input::placeholder,
@@ -711,10 +729,6 @@ align-items: center; */
 .speak {
   display: flex;
   gap: 1.8rem;
-}
-
-.box img {
-  /* width: 100% !important; */
 }
 
 .wee p {
@@ -1083,25 +1097,42 @@ align-items: center; */
   margin-top: 7rem !important;
 }
 
+/* .formular {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+} */
+
+.first-form{
+  /* width: 100% !important; */
+  margin-top: 30px;
+}
+
+.second-form{
+  /* width: 100% !important; */
+  /* margin-top: 69px; */
+}
+
 .formular {
-  width: 55% !important;
+  /* width: 55% !important; */
   box-shadow: 0px 0px 16px 0px #00000040 !important;
   /* background-color: #FFFFFF; */
   border-radius: 34px !important;
   padding: 40px 20px !important;
   margin-top: 50px;
+  display: grid !important;
+  /* grid-template-columns: repeat(2, 2fr) !important; */
 }
 
-.formular label {
+/* .formular label {
   margin-bottom: 20px;
-}
+} */
 
 .habor {
   padding: 60px;
 }
 
 .form-control select {
-  width: 600px;
+  /* width: 600px; */
 }
 
 .sharp {
@@ -1110,8 +1141,13 @@ align-items: center; */
   align-items: center;
 }
 
+.form-main {
+  padding: 1.45rem;
+  margin: 1.45rem;
+}
+
 .form-main input {
-  width: 100%;
+  width: 100% !important;
   height: 50px;
   border-radius: 10.4px;
   border: 1.04px solid #23729447;
@@ -1119,7 +1155,7 @@ align-items: center; */
   outline: #fff;
 }
 
-.form-main select {
+.form-main select{
   width: 100%;
   height: 50px;
   border-radius: 10.4px;
@@ -1131,12 +1167,14 @@ align-items: center; */
   display: flex;
   /* justify-content: space-between; */
   gap: 10px;
+  padding-top: 8px;
 }
 
 .sharpiru-1 {
   display: flex;
   /* justify-content: space-between; */
   gap: 10px;
+  padding-top: 17px;
 }
 
 .sharpiru-button {
@@ -1151,6 +1189,7 @@ align-items: center; */
   padding: 12px 140px;
   color: #ffff;
   margin-top: 2rem;
+  width: 100%;
 
   /* justify-content: center; */
   /* text-align: center; */
@@ -1164,6 +1203,7 @@ align-items: center; */
   color: #950000;
   font-weight: 600;
   text-align: center;
+  font-size: 33px;
 }
 
 .infos a {
@@ -1364,15 +1404,26 @@ align-items: center; */
   text-underline-offset: 25px;
 }
 
-.Details{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.details{
+  display: flex;
+  /* margin: 40px; */
+  justify-content: space-between;
 }
 
 
-.Details img {
-  padding-top: 20px;
-  width: 65%;
+.bod{
+  margin: 4%;
+}
+
+.details img {
+  max-width: 30% !important;
+  height: auto !important;
+  /* padding-top: 20px; */
+  border-radius: 20px;
+}
+
+.details img {
+  box-shadow: 10px 10px 15px rgba(214, 205, 205, 0.75);
 }
 /* 
 .executive-members {
@@ -1385,11 +1436,12 @@ align-items: center; */
   margin-top: 20px;
   background-size: cover;
   /* position: relative; */
-  background-image: url(/assets/Group\ 20648.png);
+  background-image: url(assets/Group\ 20648.png);
 }
 
 .memberrr p {
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 350;
 }
 
 .personal-info {
@@ -1401,6 +1453,21 @@ align-items: center; */
   background-color: white;
   z-index: 90;
 }
+
+.left-form label{
+  width: 100% !important;
+}
+
+.right-form label{
+  width: 100% !important;
+}
+
+
+
+.gm {
+  display: none;
+} 
+
 
 @media screen and (min-width: 1280px) {
   body,
@@ -1508,13 +1575,20 @@ align-items: center; */
     font-size: 15px;
   }
 
-  nav .sm_ul .nav_btns button:nth-child(1) {
+  nav .sm_ul .nav_btns a button:nth-child(1) {
     height: 38px;
     padding: 0;
     color: var(--main-red);
     transition: all 0.2s ease-in-out;
     margin-left: 0;
   }
+
+  .btn-pay {
+    color: #fff !important;
+    width: 115% !important;
+  }
+
+
 
   .spek {
     display: flex;
@@ -1622,7 +1696,7 @@ align-items: center; */
     display: block;
   }
   .top-text {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
   }
 
   .add-sec {
@@ -1681,7 +1755,7 @@ align-items: center; */
   .footer {
     margin-top: 2rem;
     display: block;
-    padding: 30px;
+    padding: 10px;
   }
 
   .get-butss {
@@ -2090,13 +2164,15 @@ align-items: center; */
 
   .infos {
     display: flex;
-    font-size: 12px;
-    gap: 26px;
+    font-size: 16px;
+    gap: 100px !important;
     font-weight: 600;
     cursor: pointer;
     padding-top: 2rem !important;
     justify-content: center;
-  }
+}
+
+  
 
   .japa {
     display: block;
@@ -2175,33 +2251,43 @@ align-items: center; */
     box-shadow: 0px 0px 16px 0px #00000040 !important;
     /* background-color: #FFFFFF; */
     border-radius: 34px !important;
-    padding: 40px 20px !important;
+    padding: 40px 10px !important;
     margin-top: 100px !important;
+    display: block !important;
   }
 
-  .sharpiru {
-    display: flex;
-    flex-direction: column;
-  }
+ 
 
-  .sharpiru-1 {
-    display: flex;
-    flex-direction: column;
-  }
+  .sharpiru-button button {
+    width: 90% !important;
+    padding: 12px 100px !important;
+}
+
+
 
   .color-change {
     margin-top: 20px !important;
   }
+  
 
   .habor {
     padding: 0px !important;
   }
 
   .formular h1 {
-    font-size: 31px !important;
+    font-size: 25px !important;
   }
 
   .associate {
+    margin: 0 !important;
+  }
+
+  .mylast button{
+    width: 100% !important;
+  }
+
+  .form-main {
+    padding: 0 !important;
     margin: 0 !important;
   }
 }

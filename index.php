@@ -60,14 +60,14 @@
                 <li><a href="membership.php">Membership</a></li>
                 <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
-                <div class="nav_btns">
-                  <a href="reachout.php">
-                    <button>Contact Us</button>  
-                  </a>
-                  <a href="checkout.php">
-                    <button class="btn-pay">Pay Alunmi Fee</button>                     
-                  </a>
-                </div>
+              <div class="nav_btns">
+                <a href="reachout.php">
+                  <button>Contact Us</button>  
+                </a>
+                <a href="checkout.php">
+                  <button class="btn-pay">Pay Alunmi Fee</button>                     
+                </a>
+              </div>
             </div>
             <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
           </nav>
@@ -273,13 +273,13 @@
           data-aos-easing="linear"
           data-aos-duration="1500">
         <section class="add-sec">
-        <div class="row mt-5">
-    <div class="col-sm-12 col-md-12 col-lg-1"></div>
-    <div class="col-sm-12 col-md-12 col-lg-10">
-      <div class="address-section">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="address-text">
+          <div class="row mt-5">
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="address-section">
+            <div class="row">
+             <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="address-text">
               <h3>
                 <span class="address-color">Address by</span> The<span
                   class="address-color-2"
@@ -307,261 +307,266 @@
               </p>
               <button class="address-butn">Read More</button>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="address-image">
               <img src="assets/Group 4.png" alt="" />
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-        </section>
-    </div>
-  
-
-
-
-    <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-     <section>
-      <div class="row">
-        <div class="col-md-12 col-md-12 col-lg-1"></div>
-        <div class="col-md-12 col-md-12 col-lg-10">
-          <div class="associate">
-            <div class="col-md-12 col-md-12 col-lg-6">
-              <div class="associate-image">
-                <img src="assets/Frame 2.png" alt="" />
-              </div>
-            </div>
-            <div class="col-md-12 col-md-12 col-lg-6 associate-text">
-              <div class="">
-                <h3 id="target">
-                  The Lascohet <span class="alumni">Alumni</span><br /><span class="associatess">Association</span>Mantra
-                </h3>
-                <p>
-                  Many of our alumni are trailblazers in entrepreneurship and
-                  innovation. From establishing healthcare startups to
-                  introducing innovative medical technologies, these alumni
-                  contribute significantly to the growth of the healthcare
-                  industry. The institution’s emphasis on practical skills and
-                  entrepreneurial spirit equips graduates to create their
-                  ventures, driving economic progress while addressing
-                  healthcare challenges.
-                </p>
-                <button class="involved-butn">Get Involved</button>
-              </div>
-            </div>
           </div>
-        </div>
-        <div class="col-md-12 col-md-12 col-lg-1"></div>
+          </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
       </div>
-    </section>
-</div>
-    
+      <div data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="1500">
+        <section>
+          <div class="row">
+            <div class="col-md-12 col-md-12 col-lg-1"></div>
+            <div class="col-md-12 col-md-12 col-lg-10">
+              <div class="associate">
+                <div class="col-md-12 col-md-12 col-lg-6">
+                  <div class="associate-image">
+                    <img src="assets/Frame 2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-12 col-md-12 col-lg-6 associate-text">
+                  <div class="">
+                    <h3 id="target">
+                      The Lascohet <span class="alumni">Alumni</span><br /><span class="associatess">Association</span>Mantra
+                    </h3>
+                    <p>
+                      Many of our alumni are trailblazers in entrepreneurship and
+                      innovation. From establishing healthcare startups to
+                      introducing innovative medical technologies, these alumni
+                      contribute significantly to the growth of the healthcare
+                      industry. The institution’s emphasis on practical skills and
+                      entrepreneurial spirit equips graduates to create their
+                      ventures, driving economic progress while addressing
+                      healthcare challenges.
+                    </p>
+                    <button class="involved-butn">Get Involved</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
+      </div>
+
+      <div data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+          <section class="mt-5 mb-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                <div class="row just">
+                  <div class="col-sm-12 col-md-12 col-lg-6" style="margin-top: 2.9rem;">
+                      <h3 id="target">
+                        Empowering <span class="alumni"> Excellence, </span><br /><span class="associatess"> Connecting </span> Futures
+                      </h3>
+                    <p>At the heart of healthcare innovation and impact lies the College of Health Technology Alumni Association Foundation. We are not just an association; we are a family, a force for change, and a beacon of excellence in the healthcare community. Comprising graduates who have excelled in diverse fields, we stand united in our mission to empower, connect, and uplift.</p>
+                      <button id="read_button" class="involved-butn">Read More</button>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                      <img class="w-100 den" src="assets/added.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            </div>
+          </section>
+      </div>
 
     <section class="whole">
-            <div data-aos="fade-up"
-      data-aos-duration="1500">
-      <div class="row">
-        <div class="col-md-12 col-md-12 col-lg-1"></div>
-        <div class="col-md-12 col-md-12 col-lg-10">
-          <div class="whole-image mt-5">
-            <img src="assets/Group 20646.png" alt="" />
+        <div data-aos="fade-up"
+        data-aos-duration="1500">
+        <div class="row">
+          <div class="col-md-12 col-md-12 col-lg-1"></div>
+          <div class="col-md-12 col-md-12 col-lg-10">
+            <div class="whole-image mt-5">
+              <img src="assets/Group 20646.png" alt="" />
+            </div>
           </div>
+          <div class="col-md-12 col-md-12 col-lg-1"></div>
         </div>
-        <div class="col-md-12 col-md-12 col-lg-1"></div>
-      </div>
-              </div>
-
-            <div data-aos="fade-left"
-              data-aos-duration="1500">
-              <div class="speakers mt-5">
-                <div class="row text-center">
-                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                  <div class="col-sm-12 col-md-12 col-lg-10">
-                    <div class="cards">
-                      <div class="row">
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                          <div class="card-1">
-                            <div class="card-section-item">
-                              <div class="card-header">
-                                <img src="assets/image 65.png" alt="" />
-                              </div>
-                              <div class="card-body">
-                                <h2 class="card-title">
-                                  If there’s one thing true about Basketball,
-                                </h2>
-                                <div class="speaker-name">
-                                  <div class="name-text">
-                                    <p>Jacob Henry .</p>
-                                  </div>
-                                  <div class="date-text">
-                                    <p>September 27, 2017 (8 mins read)</p>
-                                  </div>
+            </div>
+              <div data-aos="fade-left"
+                data-aos-duration="1500">
+                <div class="speakers mt-5">
+                  <div class="row text-center">
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-10">
+                      <div class="cards">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="card-1">
+                              <div class="card-section-item">
+                                <div class="card-header">
+                                  <img src="assets/image 65.png" alt="" />
                                 </div>
-                                <p class="card-text">
-                                  If there’s one thing true about Basketball, it’s a
-                                  sport that showcases mental and physical energy at its
-                                  best, and for us, we are always up for a good show of
-                                  getting people to express their Younergy to the
-                                  fullest. This is the driving force that has sparked
-                                  our strong interest in the world of Basketball and
-                                  birthed the need for our own Tournament.
-                                </p>
+                                <div class="card-body">
+                                  <h2 class="card-title">
+                                    If there’s one thing true about Basketball,
+                                  </h2>
+                                  <div class="speaker-name">
+                                    <div class="name-text">
+                                      <p>Jacob Henry .</p>
+                                    </div>
+                                    <div class="date-text">
+                                      <p>September 27, 2017 (8 mins read)</p>
+                                    </div>
+                                  </div>
+                                  <p class="card-text">
+                                    If there’s one thing true about Basketball, it’s a
+                                    sport that showcases mental and physical energy at its
+                                    best, and for us, we are always up for a good show of
+                                    getting people to express their Younergy to the
+                                    fullest. This is the driving force that has sparked
+                                    our strong interest in the world of Basketball and
+                                    birthed the need for our own Tournament.
+                                  </p>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                          <div div class="card-1">
-                            <div class="card-section-item">
-                              <div class="card-header">
-                                <img src="assets/image 65 (1).png" alt="" />
-                              </div>
-                              <div class="card-body">
-                                <h2 class="card-title">
-                                  If there’s one thing true about Basketball,
-                                </h2>
-                                <div class="speaker-name">
-                                  <div class="name-text">
-                                    <p>Jacob Henry .</p>
-                                  </div>
-                                  <div class="date-text">
-                                    <p>September 27, 2017 (8 mins read)</p>
-                                  </div>
+                          <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div div class="card-1">
+                              <div class="card-section-item">
+                                <div class="card-header">
+                                  <img src="assets/image 65 (1).png" alt="" />
                                 </div>
-                                <p class="card-text">
-                                  If there’s one thing true about Basketball, it’s a
-                                  sport that showcases mental and physical energy at its
-                                  best, and for us, we are always up for a good show of
-                                  getting people to express their Younergy to the
-                                  fullest. This is the driving force that has sparked
-                                  our strong interest in the world of Basketball and
-                                  birthed the need for our own Tournament.
-                                </p>
+                                <div class="card-body">
+                                  <h2 class="card-title">
+                                    If there’s one thing true about Basketball,
+                                  </h2>
+                                  <div class="speaker-name">
+                                    <div class="name-text">
+                                      <p>Jacob Henry .</p>
+                                    </div>
+                                    <div class="date-text">
+                                      <p>September 27, 2017 (8 mins read)</p>
+                                    </div>
+                                  </div>
+                                  <p class="card-text">
+                                    If there’s one thing true about Basketball, it’s a
+                                    sport that showcases mental and physical energy at its
+                                    best, and for us, we are always up for a good show of
+                                    getting people to express their Younergy to the
+                                    fullest. This is the driving force that has sparked
+                                    our strong interest in the world of Basketball and
+                                    birthed the need for our own Tournament.
+                                  </p>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-        
-                        <div class="below-butn m-auto">
-                          <button class="below-butn-main">Read More</button>
+          
+                          <div class="below-butn m-auto">
+                            <button class="below-butn-main">Read More</button>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
                   </div>
-                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
                 </div>
-              </div>
-              </div>
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                  <div class="col-sm-12 col-md-12 col-lg-10">
-                    <div class="footer">
-                      <div class="footer-contents">
-                        <div class="logo">
-                          <img src="assets/Logo2.png" alt="" class="w-75 pt-2"/>
-                        </div>
-                        <p class="website">
-                          This is the official website of the Lagos State College of
-                          Health Technology Alumni,
-                        </p>
-                      </div>
-          
-                      <div class="contact pt-3">
-                        <h5>Contact us</h5>
-                        <p>Phone Number</p>
-                        <p>Support@thelascohetalumni.org</p>
-                        <p>info@thelascohetalumni.org</p>
-                      </div>
-          
-                      <div class="links pt-3">
-                        <h5>Useful links</h5>
-                        <p>Lascohet website</p>
-                        <p>Lascohet Portal</p>
-                        <p>E-clearance</p>
-                      </div>
-          
-                      <div class="navigate pt-3">
-                        <h5>Quick Navigation</h5>
-                        <p>Create Alumni Account</p>
-                        <p>My Account</p>
-                        <p>Pay Alumni fee</p>
-                      </div>
-          
-                      <div class="address pt-3">
-                        <h5>Address</h5>
-                        <p>8, Harvey Road, Yaba, Lagos.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 colg-1"></div>
                 </div>
-                <div class="row mt-5 relay ">
-                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                  <div class="col-sm-12 col-md-12 col-lg-10">
-                <p>Follow us on all social media platforms</p>
-                <div class="socials-icons">
-                    <div>
-                      <a href="https://instagram.com" target="_blank">
-                      <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
-                      </a>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-10">
+                      <div class="footer">
+                        <div class="footer-contents">
+                          <div class="logo">
+                            <img src="assets/Logo2.png" alt="" class="w-75 pt-2"/>
+                          </div>
+                          <p class="website">
+                            This is the official website of the Lagos State College of
+                            Health Technology Alumni,
+                          </p>
+                        </div>
+            
+                        <div class="contact pt-3">
+                          <h5>Contact us</h5>
+                          <p>Phone Number</p>
+                          <p>Support@thelascohetalumni.org</p>
+                          <p>info@thelascohetalumni.org</p>
+                        </div>
+            
+                        <div class="links pt-3">
+                          <h5>Useful links</h5>
+                          <p>Lascohet website</p>
+                          <p>Lascohet Portal</p>
+                          <p>E-clearance</p>
+                        </div>
+            
+                        <div class="navigate pt-3">
+                          <h5>Quick Navigation</h5>
+                          <p>Create Alumni Account</p>
+                          <p>My Account</p>
+                          <p>Pay Alumni fee</p>
+                        </div>
+            
+                        <div class="address pt-3">
+                          <h5>Address</h5>
+                          <p>8, Harvey Road, Yaba, Lagos.</p>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-
-                    <a href="https://facebook.com" target="_blank">
-                      <img src="assets/Group.png" alt="" class="mr-2" />
-                    </a>
-                    </div>
-
-                    <div>
-                      <a href="https://twitter.com/helascohet_tla" target="_blank">
-                      <img src="assets/Group (1).png" alt=""  class="mr-2"/>
-                      </a>
-                    </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
-                      </a>
-                    </div>
+                    <div class="col-sm-12 col-md-12 colg-1"></div>
                   </div>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-1"></div> 
-                </div>  
+                  <div class="row mt-5 relay ">
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-10">
+                  <p>Follow us on all social media platforms</p>
+                  <div class="socials-icons">
+                      <div>
+                        <a href="https://instagram.com/thelascohetalumni" target="_blank">
+                        <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
+                        </a>
+                      </div>
+                      <div>
+
+                      <a href="https://facebook.com" target="_blank">
+                        <img src="assets/Group.png" alt="" class="mr-2" />
+                      </a>
+                      </div>
+
+                      <div>
+                        <a href="https://twitter.com/helascohet_tla" target="_blank">
+                        <img src="assets/Group (1).png" alt=""  class="mr-2"/>
+                        </a>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div> 
+                  </div>  
     </section>
 
-    <!-- <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script> -->
 
-  <script src="index.js"></script>
-
-
-  <script>
-    document.getElementById('home-img').onclick = function(){
-      window.location.href = 'index.php';
-    }
-  </script>
-
+    <script>
+        document.getElementById('home-img').onclick = function(){
+          window.location.href = 'index.php';
+        }
+      </script>
     <script>
         document.getElementById('goToCheckOut').onclick = function() {
             window.location.href = 'form.php'; // Change 'about.html' to your desired URL
         };
     </script>
-
     <script>
       document.getElementById('goToContact').onclick = function(){
-        window.location.href = 'reachout.php';
+        window.location.href = 'reachout.php'
       }
     </script>
+
+  <script src="index.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -570,29 +575,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"></script>
-
-
-
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        autoplay: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:1
-            },
-            1000:{
-                items:1
-            }
-        }
-    })
-    </script> 
+      crossorigin="anonymous"></script> 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>

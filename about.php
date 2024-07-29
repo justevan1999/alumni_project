@@ -18,7 +18,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ALUMNI</title>
   </head>
-  <body>
+<body>
     <header>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -53,7 +53,7 @@
       
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="newupdates.php">New Updates</a></li>
                 <li><a href="membership.php">Membership</a></li>
@@ -154,399 +154,400 @@
    
 
     
-<div data-aos="fade-up"
-      data-aos-duration="1500">
-      <section>
+    <div data-aos="fade-up"
+          data-aos-duration="1500">
+          <section>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                <div class="community-members mt-5">
+                  <div class="member-1">
+                    <div class="member-1-color pb-5"></div>
+                    <div class="member-1-image">
+                      <img src="assets/Rectangle 31 (6).png" alt="" />
+                    </div>
+                  </div>
+      
+                  <div class="member-2">
+                    <div class="member-2-image">
+                      <img src="assets/Rectangle 31 (5).png" alt="" />
+                    </div>
+                    <div class="member-2-color"></div>
+                  </div>
+      
+                  <div class="member-3">
+                    <img src="assets/Rectangle 31 (4).png" alt="" />
+                  </div>
+      
+                  <div class="member-4">
+                    <div class="member-4-color"></div>
+                    <div class="member-4-image">
+                      <img src="assets/Rectangle 31 (3).png" alt="" />
+                    </div>
+                  </div>
+      
+                  <div class="member-5">
+                    <div class="member-4-image">
+                      <img src="assets/Rectangle 31 (2).png" alt="" />
+                    </div>
+                    <div class="member-5-color"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            </div>
+          </section>
+    </div>
+
+    
+    <div data-aos="fade-right"
+        data-aos-duration="1500">
+        <section class="below-top mt-5">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <div class="below-text">
+                <h4>
+                  The idea of the <span class="association">Alumni Association</span
+                  ><br />
+                  conceived when it was considered <br />
+                  necessary to create an organization <br />
+                  that would embrace different generations <br />
+                  of the college
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
+    </div>
+
+    
+    <div data-aos="zoom-out-up"
+            data-aos-duration="2000">
+      <section class="speakers-top">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="community-members mt-5">
-              <div class="member-1">
-                <div class="member-1-color pb-5"></div>
-                <div class="member-1-image">
-                  <img src="assets/Rectangle 31 (6).png" alt="" />
+            <div class="speaker-content">
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <div class="speaker-image mt-5">
+                    <img src="assets/Group 17.png" alt="" />
+                  </div>
                 </div>
-              </div>
-  
-              <div class="member-2">
-                <div class="member-2-image">
-                  <img src="assets/Rectangle 31 (5).png" alt="" />
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <div class="speaker-text">
+                    <h3>
+                      What <span class="speaker-span">LASCOHET Alumni</span> Offer
+                    </h3>
+                    <p>
+                      Lagos State College of Health Technology alumni are more
+                      than just graduates; we are torchbearers of healthcare
+                      excellence and societal change. Rooted in a commitment to
+                      providing top-notch healthcare services and positively
+                      impacting communities, our esteemed institution's alumni
+                      continue to shine brightly in various corners of the
+                      healthcare industry. <br />
+                      The alumni network of Lagos State College of Health
+                      Technology represents a diverse and accomplished group of
+                      healthcare professionals. From Community Health
+                      Practitioners and medical laboratory technicians to health
+                      information managers and pharmacy technicians to
+                      Environmental health officers etc, these experts form a
+                      robust network that collaborates, shares knowledge, and
+                      advances the field of healthcare. Through our alumni-driven
+                      initiatives, this network fosters mentorship, facilitates
+                      knowledge exchange, and encourages lifelong learning among
+                      our members.
+                    </p>
+                    <button class="speaker-butts">Get Involved</button>
+                  </div>
                 </div>
-                <div class="member-2-color"></div>
-              </div>
-  
-              <div class="member-3">
-                <img src="assets/Rectangle 31 (4).png" alt="" />
-              </div>
-  
-              <div class="member-4">
-                <div class="member-4-color"></div>
-                <div class="member-4-image">
-                  <img src="assets/Rectangle 31 (3).png" alt="" />
-                </div>
-              </div>
-  
-              <div class="member-5">
-                <div class="member-4-image">
-                  <img src="assets/Rectangle 31 (2).png" alt="" />
-                </div>
-                <div class="member-5-color"></div>
               </div>
             </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
       </section>
-</div>
-
-    
-<div data-aos="fade-right"
-     data-aos-duration="1500">
-     <section class="below-top mt-5">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-          <div class="below-text">
-            <h4>
-              The idea of the <span class="association">Alumni Association</span
-              ><br />
-              conceived when it was considered <br />
-              necessary to create an organization <br />
-              that would embrace different generations <br />
-              of the college
-            </h4>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
-    </section>
-</div>
-
-    
-<div data-aos="zoom-out-up"
-        data-aos-duration="2000">
-  <section class="speakers-top">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      <div class="col-sm-12 col-md-12 col-lg-10">
-        <div class="speaker-content">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <div class="speaker-image mt-5">
-                <img src="assets/Group 17.png" alt="" />
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
-              <div class="speaker-text">
-                <h3>
-                  What <span class="speaker-span">LASCOHET Alumni</span> Offer
-                </h3>
-                <p>
-                  Lagos State College of Health Technology alumni are more
-                  than just graduates; we are torchbearers of healthcare
-                  excellence and societal change. Rooted in a commitment to
-                  providing top-notch healthcare services and positively
-                  impacting communities, our esteemed institution's alumni
-                  continue to shine brightly in various corners of the
-                  healthcare industry. <br />
-                  The alumni network of Lagos State College of Health
-                  Technology represents a diverse and accomplished group of
-                  healthcare professionals. From Community Health
-                  Practitioners and medical laboratory technicians to health
-                  information managers and pharmacy technicians to
-                  Environmental health officers etc, these experts form a
-                  robust network that collaborates, shares knowledge, and
-                  advances the field of healthcare. Through our alumni-driven
-                  initiatives, this network fosters mentorship, facilitates
-                  knowledge exchange, and encourages lifelong learning among
-                  our members.
-                </p>
-                <button class="speaker-butts">Get Involved</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
     </div>
-  </section>
-</div>
 
    
-<div data-aos="fade-down"
-      data-aos-duration="1500">
-  <section class="history-part">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      <div class="col-sm-12 col-md-12 col-lg-10">
-        <div class="history text-center">
-          <h3>College <span class="history-1">History</span></h3>
-          <p>
-            Lagos State College of Health Technology, formerly known as School
-            of Hygiene was established in 1920 by Dr I. Oladipo Oluwole[1]
-            based on the prevailing health situations and low human health
-            resources available in the community. The then School of hygiene
-            offered six major health courses before incorporating the training
-            of community midwives and nurses into its program between 1957 and
-            1966
-          </p>
-          <p>
-            On the 21st of February, 1977, Lagos State College of Health
-            Technology, under the directive of the Federal Military Government
-            was transformed from a School of hygiene to a School of Health
-            Technology as a result of the Third National Development Plan
-            (1975 – 1980) on National Basic Health Service Scheme (NBHSS)
-            which mandated the train middle level manpower for the health
-            sector.
-          </p>
-          <p>
-            On the 22nd of January, 2004, Lagos State College of Health
-            Technology's establishment was assented by the former Governor of
-            Lagos State, Asiwaju Bola Ahmed Tinubu and the Lagos state college
-            of health technology's governing council was constituted and
-            inaugurated in July, 2012 by Babatunde Raji
-            Fashola’s Administration
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-    </div>
-  </section>
-</div>
-
-  
-<div data-aos="zoom-in"
-      data-aos-duration="1500">
-  <section class="box-section mt-5">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      <div class="col-sm-12 col-md-12 col-lg-10">
-        <div class="row text-center top">
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="box-1">
-              <img src="assets/today.png" alt="" />
-              <h5>Membership</h5>
-              <p>
-                Sign up to be a member of the <br />
-                LASCOHET Alumni Community.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="box-2">
-              <img src="assets/today.png" alt="" />
-              <h5>Get involved</h5>
-              <p>
-                Be part of the alumni journey to <br />
-                success.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="box-3">
-              <img src="assets/today.png" alt="" />
-              <h5>Newsletters</h5>
-              <p>Do not miss out on any <br />information from us.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-1"></div>
-    </div>
-  </section>
-</div>
-   
-  <div data-aos="fade-up"
-       data-aos-duration="2000">
-      <section class="whole notable-end">
-          <section class="set-text">
-            <section class="text-center">
-              <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                <div class="col-sm-12 col-md-12 col-lg-10">
-                  <div class="notable">
-                    <h4>Notable <span class="alumn">Alumni</span></h4>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-1"></div>
-              </div>
-            </section> 
-            <section class="long-list">
-              <div class="row mt-5">
-                <div class="col-sm-12 col-md-12 col-lg-1"></div>
-                <div class="col-sm-12 col-md-12 col-lg-10">
-                  <div class="list-main">
-                    <div class="list-1">
-                      <ul>
-                        <li>Alm  Arole Yusuf Adeshola</li>
-                        <li>Mrs J.F. Daramola</li>
-                        <li>Mr Wole Jonathan</li>
-                        <li>Alm. Dr. Akingbehin Samuel Akinbodunwa</li>
-                        <li>Alm. Rasaq Adio Falade</li>
-                        <li>Mr Olanrewaju Bob</li>
-                        <li>Mrs Balogun</li>
-                        <li>Mr Afonja</li>
-                        <li>Alm. Pedro Qudirat Aramide</li>
-                        <li>Falana Olawale</li>
-                        <li>Ibitona Olaniyi</li>
-                        <li>Abayomi Great</li>
-                      </ul>
-                    </div>
-                    <div class="list-1">
-                      <ul>
-                        <li>Mrs Ayodele Rotimi</li>
-                        <li>Alm. Mrs. Stella</li>
-                        <li>Mr Samson Omotesho</li>
-                        <li>Mr Olufeso Sesan</li>
-                        <li>YAlm. Ikotun F.O</li>
-                        <li>Alm. Onikoyi Tawakalitu Mojisola</li>
-                        <li>Alm. Ayege Semiu Abiodun</li>
-                        <li>Mr Demeh</li>
-                        <li>Alm. Oreyomi Micheal</li>
-                        <li>Alm. Oyebanji-Keshinro Felicia Funmilola</li>
-                        <li>Alm. Awonuga Taiwo Adebamidele</li>
-                        <li>Alm. Pedro Qudirat Aramide</li>
-                      </ul>
-                    </div>
-                    <div class="list-1">
-                      <ul>
-                        <li>Alm. Somoye Micheal</li>
-                        <li>Alm. Ogunbekun Hafeez Olanrewaju</li>
-                        <li>Akingbade Ayo</li>
-                        <li>Olanrewaju Afeez Taiwo</li>
-                        <li>Akinyanmi Abraham Akintonmide</li>
-                        <li>Alm. Oladapo Femi Taiwo</li>
-                        <li>Amore Boluwatife Adebola</li>
-                        <li>Alm. Rahmon Oluwakemi</li>
-                        <li>Wisdom Christian</li>
-                        <li>Mustapha Moruf Olawale</li>
-                        <li>Pedotosi Jeremiah Mautin</li>
-                        <li>Omonusi Kayode Solomon</li>
-                      </ul>
-                    </div>
-                    <div class="list-1">
-                      <ul>
-                        <li>Alm. Abdullai Yusau Olawale</li>
-                        <li>Alm. Onoolapo Moses</li>
-                        <li>Alm. James Abraham</li>
-                        <li>Alm. Osho Sulaimon</li>
-                        <li>Adebosin Ridwan</li>
-                        <li>Arapatile Kehinde</li>
-                        <li>Alm. Dr. Peters Yominiya Daniel</li>
-                        <li>Alm. Jamiu Wahab Aremu</li>
-                        <li>Alm. Agananoh Mathew</li>
-                        <li>Alm. Fadeyi Damilare</li>
-                        <li>Asekun Ekundayo</li>
-                        <li>Adepitan Adelaja</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-1"></div>
-              </div>
-            </section>
-          </section>
-          
-    
-          
-      </section>
-  </div>
-   
-
-  <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
-     <section class="reach-top">
-      <div class="row">
+    <div data-aos="fade-down"
+          data-aos-duration="1500">
+      <section class="history-part">
+        <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
-              <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                      <div class="reaching">
-                          <div class="reach-out">
-                              <h2> Reach Out to Us</h2>
-                              <div class="call-icon mt-5">
-                                <div>
-                                  <img src="assets/phone-call 1.png" alt="">
-                                </div>
-                                <div>
-                                   <p>+(234) 012-345-6789, +(234) 123-456-7890.</p>
-                                </div>
-                              </div>
+            <div class="history text-center">
+              <h3>College <span class="history-1">History</span></h3>
+              <p>
+                Lagos State College of Health Technology, formerly known as School
+                of Hygiene was established in 1920 by Dr I. Oladipo Oluwole[1]
+                based on the prevailing health situations and low human health
+                resources available in the community. The then School of hygiene
+                offered six major health courses before incorporating the training
+                of community midwives and nurses into its program between 1957 and
+                1966
+              </p>
+              <p>
+                On the 21st of February, 1977, Lagos State College of Health
+                Technology, under the directive of the Federal Military Government
+                was transformed from a School of hygiene to a School of Health
+                Technology as a result of the Third National Development Plan
+                (1975 – 1980) on National Basic Health Service Scheme (NBHSS)
+                which mandated the train middle level manpower for the health
+                sector.
+              </p>
+              <p>
+                On the 22nd of January, 2004, Lagos State College of Health
+                Technology's establishment was assented by the former Governor of
+                Lagos State, Asiwaju Bola Ahmed Tinubu and the Lagos state college
+                of health technology's governing council was constituted and
+                inaugurated in July, 2012 by Babatunde Raji
+                Fashola’s Administration
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+      </section>
+    </div>
 
-                              <a href="https://twitter.com/thelascohet_tla" target="_blank">
-                                <div class="twitter-icon">
-                                  <div>
-                                    <img src="assets/Twitter Outline.png" alt="">
-                                </div>
-                                <div style="color: #000; text-decoration: none;">
-                                    <p>thelascohet_tla</p>
-                                </div>
-                              </div>
-                              </a>
+  
+    <div data-aos="zoom-in"
+          data-aos-duration="1500">
+      <section class="box-section mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row text-center top">
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="box-1">
+                  <img src="assets/today.png" alt="" />
+                  <h5>Membership</h5>
+                  <p>
+                    Sign up to be a member of the <br />
+                    LASCOHET Alumni Community.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="box-2">
+                  <img src="assets/today.png" alt="" />
+                  <h5>Get involved</h5>
+                  <p>
+                    Be part of the alumni journey to <br />
+                    success.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="box-3">
+                  <img src="assets/today.png" alt="" />
+                  <h5>Newsletters</h5>
+                  <p>Do not miss out on any <br />information from us.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+      </section>
+    </div>
+   
+    <div data-aos="fade-up"
+        data-aos-duration="2000">
+        <section class="whole notable-end">
+            <section class="set-text">
+              <section class="text-center">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                  <div class="col-sm-12 col-md-12 col-lg-10">
+                    <div class="notable">
+                      <h4>Notable <span class="alumn">Alumni</span></h4>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                </div>
+              </section> 
+              <section class="long-list">
+                <div class="row mt-5">
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                  <div class="col-sm-12 col-md-12 col-lg-10">
+                    <div class="list-main">
+                      <div class="list-1">
+                        <ul>
+                          <li>Alm  Arole Yusuf Adeshola</li>
+                          <li>Mrs J.F. Daramola</li>
+                          <li>Mr Wole Jonathan</li>
+                          <li>Alm. Dr. Akingbehin Samuel Akinbodunwa</li>
+                          <li>Alm. Rasaq Adio Falade</li>
+                          <li>Mr Olanrewaju Bob</li>
+                          <li>Mrs Balogun</li>
+                          <li>Mr Afonja</li>
+                          <li>Alm. Pedro Qudirat Aramide</li>
+                          <li>Falana Olawale</li>
+                          <li>Ibitona Olaniyi</li>
+                          <li>Abayomi Great</li>
+                        </ul>
+                      </div>
+                      <div class="list-1">
+                        <ul>
+                          <li>Mrs Ayodele Rotimi</li>
+                          <li>Alm. Mrs. Stella</li>
+                          <li>Mr Samson Omotesho</li>
+                          <li>Mr Olufeso Sesan</li>
+                          <li>YAlm. Ikotun F.O</li>
+                          <li>Alm. Onikoyi Tawakalitu Mojisola</li>
+                          <li>Alm. Ayege Semiu Abiodun</li>
+                          <li>Mr Demeh</li>
+                          <li>Alm. Oreyomi Micheal</li>
+                          <li>Alm. Oyebanji-Keshinro Felicia Funmilola</li>
+                          <li>Alm. Awonuga Taiwo Adebamidele</li>
+                          <li>Alm. Pedro Qudirat Aramide</li>
+                        </ul>
+                      </div>
+                      <div class="list-1">
+                        <ul>
+                          <li>Alm. Somoye Micheal</li>
+                          <li>Alm. Ogunbekun Hafeez Olanrewaju</li>
+                          <li>Akingbade Ayo</li>
+                          <li>Olanrewaju Afeez Taiwo</li>
+                          <li>Akinyanmi Abraham Akintonmide</li>
+                          <li>Alm. Oladapo Femi Taiwo</li>
+                          <li>Amore Boluwatife Adebola</li>
+                          <li>Alm. Rahmon Oluwakemi</li>
+                          <li>Wisdom Christian</li>
+                          <li>Mustapha Moruf Olawale</li>
+                          <li>Pedotosi Jeremiah Mautin</li>
+                          <li>Omonusi Kayode Solomon</li>
+                        </ul>
+                      </div>
+                      <div class="list-1">
+                        <ul>
+                          <li>Alm. Abdullai Yusau Olawale</li>
+                          <li>Alm. Onoolapo Moses</li>
+                          <li>Alm. James Abraham</li>
+                          <li>Alm. Osho Sulaimon</li>
+                          <li>Adebosin Ridwan</li>
+                          <li>Arapatile Kehinde</li>
+                          <li>Alm. Dr. Peters Yominiya Daniel</li>
+                          <li>Alm. Jamiu Wahab Aremu</li>
+                          <li>Alm. Agananoh Mathew</li>
+                          <li>Alm. Fadeyi Damilare</li>
+                          <li>Asekun Ekundayo</li>
+                          <li>Adepitan Adelaja</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                </div>
+              </section>
+            </section>
+            
+      
+            
+        </section>
+    </div>
+   
 
-                              
+      <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+        <section class="reach-top">
+          <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                  <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                          <div class="reaching">
+                              <div class="reach-out">
+                                  <h2> Reach Out to Us</h2>
+                                  <div class="call-icon mt-5">
+                                    <div>
+                                      <img src="assets/phone-call 1.png" alt="">
+                                    </div>
+                                    <div>
+                                      <p>+(234) 012-345-6789</p>
+                                      <p>+(234) 123-456-7890.</p>
+                                    </div>
+                                  </div>
 
-                               
+                                  <a href="https://twitter.com/thelascohet_tla" target="_blank">
+                                    <div class="twitter-icon">
+                                      <div>
+                                        <img src="assets/Twitter Outline.png" alt="">
+                                    </div>
+                                    <div style="color: #000; text-decoration: none;">
+                                        <p>thelascohet_tla</p>
+                                    </div>
+                                  </div>
+                                  </a>
 
-                              <div class="instagram-icon">
-                                <div>
-                                  <img src="assets/Instagram Outline.png" alt="">
-                                </div>
-                                <div>
-                                    <p>Lascohet_alumni</p>
-                                </div>
-                              </div>
+                                  
 
-                              <div class="facebook-icon">
-                                <div>
-                                  <img src="assets/Facebook Outline.png" alt="">
-                                </div>
-                                <div>
-                                    <p>Lascohet_alumni</p>
-                                </div>
-                              </div>
+                                  
 
-                              <div class="mail-icon">
-                                <div>
-                                    <img src="assets/envelope 2.png" alt="">
-                                </div>
-                                <div>
-                                    <p id="">support@lascohet.aluimni |  info@thelascohetalumni.org</p>
-                                </div>
-                              </div>
+                                  <div class="instagram-icon">
+                                    <div>
+                                      <img src="assets/Instagram Outline.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Lascohet_alumni</p>
+                                    </div>
+                                  </div>
 
-                              <div class="location-icon">
-                                <div>
-                                    <img src="assets/marker 1.png" alt="">
-                                </div>
-                                <div>
+                                  <div class="facebook-icon">
+                                    <div>
+                                      <img src="assets/Facebook Outline.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p>Lascohet_alumni</p>
+                                    </div>
+                                  </div>
 
-                                  <p>8, Harvey Road, Yaba, Lagos.</p>
-                                    
-                                </div>
+                                  <div class="mail-icon">
+                                    <div>
+                                        <img src="assets/envelope 2.png" alt="">
+                                    </div>
+                                    <div>
+                                        <p id="">support@lascohet.aluimni |  info@thelascohetalumni.org</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="location-icon">
+                                    <div>
+                                        <img src="assets/marker 1.png" alt="">
+                                    </div>
+                                    <div>
+
+                                      <p>8, Harvey Road, Yaba, Lagos.</p>
+                                        
+                                    </div>
+                                  </div>
                               </div>
                           </div>
                       </div>
-                  </div>
-          
-                  <div class="col-sm-12 col-md-12 col-lg-6">
-                      <div class="reach-image">
-                          <img src="assets/Group 27.png" alt="">
+              
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                          <div class="reach-image">
+                              <img src="assets/Group 27.png" alt="">
+                          </div>
                       </div>
                   </div>
               </div>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
-     
-      
-      
+        
+          
+          
 
 
-      
-  </section>
-</div>
+          
+      </section>
+    </div>
 
     
 
@@ -598,7 +599,7 @@
           
                 <div class="socials-icons">
                     <div>
-                      <a href="https://instagram.com" target="_blank">
+                      <a href="https://instagram.com/thelascohetalumni" target="_blank">
                       <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
@@ -614,12 +615,6 @@
                       <img src="assets/Group (1).png" alt=""  class="mr-2"/>
                       </a>
                     </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
-                      </a>
-                    </div>
                   </div>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-1"></div> 
@@ -630,6 +625,21 @@
         </div>
       </section>
 
+      <script>
+        document.getElementById('home-img').onclick = function(){
+          window.location.href = 'index.php';
+        }
+      </script>
+    <script>
+        document.getElementById('goToCheckOut').onclick = function() {
+            window.location.href = 'form.php'; // Change 'about.html' to your desired URL
+        };
+    </script>
+    <script>
+      document.getElementById('goToContact').onclick = function(){
+        window.location.href = 'reachout.php'
+      }
+    </script>
       
     <script src="index.js"></script>
     <script
@@ -642,9 +652,9 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-  </body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
 </html>

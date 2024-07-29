@@ -1,3 +1,17 @@
+<?php
+
+  session_start();
+
+  if (isset($_SESSION['full_name']) && isset($_SESSION['email']) && isset($_SESSION['state']) && isset($_SESSION['phone'])) {
+    $full_name = $_SESSION['full_name'];
+    $email = $_SESSION['email'];
+    $state = $_SESSION['state'];
+    $phone = $_SESSION['phone'];
+  }
+  else {
+    echo "Session is empty";
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +33,7 @@
     <title>Get involved</title>
   </head>
 
-  <body>
+  <body onload="getCountries()">
     <header>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -54,7 +68,7 @@
       
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="newupdates.php">New Updates</a></li>
                 <li><a href="membership.php">Membership</a></li>
@@ -140,22 +154,22 @@
           <div class="form-top">
             <div class="personal-info position-fixed">
               <div class="infos">
-                <a href="form.php">
+                <!-- <a href="form.php">
                     <div class="person">
                         <p>Personal Information</p>
                       </div>
-                </a> 
+                </a>  -->
                 <!-- <a href="additional.php">
                     <div class="additional">
                         <p>Additional Details</p>
                       </div>
                 </a> -->
 
-                <a href="checkout.php">
+                <!-- <a href="checkout.php">
                     <div class="checkout">
                         <p>Check Out</p>
                       </div>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -171,96 +185,83 @@
                   data-aos-duration="2500">
                   <div class="japa">
                     <div class="check-out">
-                      <div class="check">
+                      <!-- <div class="check">
                           <h1>Checkout</h1>
                           <h4>Billings Information</h4>
-                      </div>
-    
-                      <label>
-                          <h6>
-                            Full Name
-                            <span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                          </h6>
-                          <input type="text" placeholder="Enter fullname" required />
-                        </label>
-    
-                        <label>
-                          <h6>
-                            Email Address
-                            <span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                          </h6>
-                          <input type="text" placeholder="Enter Email Address" required />
-                        </label>
-    
-    
-                        <div class="checkk pb-3">
-                        <label>Select Country 
-                              <span style="color: red; margin-left: 5px; display: inline;">*</span>
-                        </label>
-                        <select id="country-select"></select>
-                        </div>
+                      </div> -->
 
+                      <!-- <form action="" method="POST">
                         <label>
-                          <h6>
-                            Phone Number
-                            <span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                          </h6>
-                          <input type="text" placeholder="Enter Phone Number" required />
+                            <h6>
+                              Full Name
+                              <span
+                                style="
+                                  color: red !important;
+                                  margin-left: 5px;
+                                  display: inline;
+                                "
+                                >*</span
+                              >
+                            </h6>
+                            <input type="text" placeholder="Enter fullname" name="full_name" required value="<?php echo isset($_SESSION['full_name']) ? htmlspecialchars($_SESSION['full_name']) : ''; ?>" disabled/>
+                          </label>
+      
+                          <label>
+                            <h6>
+                              Email Address
+                              <span
+                                style="
+                                  color: red !important;
+                                  margin-left: 5px;
+                                  display: inline;
+                                "
+                                >*</span
+                              >
+                            </h6>
+                            <input type="text" placeholder="Enter Email Address" name="email" required value="<?php echo isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email']) : ''; ?>" disabled/>
+                          </label>
+      
+    
+                          <label>
+                            <h6>
+                              State
+                              <span
+                                style="
+                                  color: red !important;
+                                  margin-left: 5px;
+                                  display: inline;
+                                "
+                                >*</span
+                              >
+                            </h6>
+                            <input type="text" placeholder="Enter State" name="state" required value="<?php echo isset($_SESSION['state']) ? htmlspecialchars($_SESSION['state']) : ''; ?>" disabled/>
+                          </label>
+                          
+
+                          <label>
+                            <h6>
+                              Phone Number
+                              <span
+                                style="
+                                  color: red !important;
+                                  margin-left: 5px;
+                                  display: inline;
+                                "
+                                >*</span
+                              >
+                            </h6>
+                            <input type="text" placeholder="Enter Phone Number" name="phone" required value="<?php echo isset($_SESSION['phone']) ? htmlspecialchars($_SESSION['phone']) : ''; ?>" disabled/>
                         </label>
+                      </form> -->
+
+                       
     
-                        <!-- <label>
-                          <h6>
-                            Billing Address
-                            <span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                          </h6>
-                          <input type="text" placeholder="Enter Billing Address" required />
-                        </label> -->
-    
-                        <div class="notice">
+                        <!-- <div class="notice">
                           <span> <span class="down">Note:</span> Ensure the your Information matches the previous form you fill.</span>
-                        </div>
-                    </div>
-                      <div class="pay-section">
-                        <!-- <h4>Order Details</h4> -->
-                        <!-- <div class="payments">
-                            <div class="pay-logo">
-                                <div>
-                                    <img src="/assets/Frame 49.png" alt="">
-                                </div>
-                                <div class="pt-4 zone">
-                                    <h6>Lagos state College Of Health <br> Technology Alumni Fee</h6>
-                                </div>
-                            </div>
-                            <div class="ewooo"><p>N13,500</p></div>
                         </div> -->
+                    </div>
+                      <!-- <div class="pay-section">
+                       
                         <div class="summary mt-5">
                           <h4>Summary</h4>
     
@@ -287,9 +288,9 @@
                         </div>
     
                         <div class="text-center mylast">
-                          <button>Pay now</button>
+                          <button id="submitButton" type="submit" name="submit">Pay now</button>
                         </div>
-                    </div>
+                    </div> -->
     
                     
                   </div>
@@ -346,7 +347,7 @@
           <p>Follow us on all social media platforms</p>
           <div class="socials-icons">
                     <div>
-                      <a href="https://instagram.com" target="_blank">
+                      <a href="https://instagram.com/thelascohetalumni" target="_blank">
                       <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
@@ -360,12 +361,6 @@
                     <div>
                       <a href="https://twitter.com/helascohet_tla" target="_blank">
                       <img src="assets/Group (1).png" alt=""  class="mr-2"/>
-                      </a>
-                    </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
                       </a>
                     </div>
                   </div>

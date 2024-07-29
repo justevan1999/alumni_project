@@ -54,7 +54,7 @@
       
             <div class="sm_ul" id="sm_ul">
               <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="newupdates.php">New Updates</a></li>
                 <li><a href="membership.php">Membership</a></li>
@@ -347,7 +347,7 @@
     
           <div class="socials-icons">
                     <div>
-                      <a href="https://instagram.com" target="_blank">
+                      <a href="https://instagram.com/thelascohetalumni" target="_blank">
                       <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
@@ -361,12 +361,6 @@
                     <div>
                       <a href="https://twitter.com/helascohet_tla" target="_blank">
                       <img src="assets/Group (1).png" alt=""  class="mr-2"/>
-                      </a>
-                    </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
                       </a>
                     </div>
                   </div>

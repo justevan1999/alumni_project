@@ -1,39 +1,3 @@
- <?php
-  include('dbconnection.php');
-  if (isset($_POST['submit'])) {
-
-    $sql = "INSERT INTO users (full_name, email, phone, gender, date_of_birth, marital_status, country, state, city, house_address) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-
-    $stmt = $conn->prepare($sql);
-    if (!$stmt) {
-      die("Error preparing statement: " . $conn->error);
-    }
-    
-    $stmt->bind_param("ssssssssss", $full_name, $email, $phone, $gender, $date_of_birth, $marital_status, $country, $state, $city, $house_address);
-    
-    $full_name = $_POST['full_name'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $gender = $_POST['gender'];
-    $date_of_birth = $_POST['date_of_birth'];
-    $marital_status = $_POST['marital_status'];
-    $country = $_POST['country'];
-    $state = $_POST['state'];
-    $city = $_POST['city'];
-    $house_address = $_POST['house_address'];
-    
-    if ($stmt->execute()) {
-      echo "New record inserted successfully";
-    } else {
-      echo "Error: " . $stmt->error;
-    }
-    
-    $stmt->close();
-    $conn->close();
-
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -90,7 +54,7 @@
         
               <div class="sm_ul" id="sm_ul">
                 <ul>
-                  <li><a href="/">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="about.php">About</a></li>
                   <li><a href="newupdates.php">New Updates</a></li>
                   <li><a href="membership.php">Membership</a></li>
@@ -129,11 +93,11 @@
                       <p>Additional Details</p>
                     </div>
                   </a> -->
-                      <a href="checkout.php">
+                      <!-- <a href="checkout.php">
                         <div class="checkout">
                           <p>Check Out</p>
                         </div>
-                      </a>
+                      </a> -->
               </div>
             </div>
           </div>
@@ -151,12 +115,12 @@
             <div class="col-sm-12 col-md-12 col-lg-10 justify-content-center">
               <div class="formular">
                     <h1>Personal Information</h1>
-                        <form class="form-main" method="POST">
+                        <form action="verify_payment.php" class="form-main" method="POST">
                               <div class="solve">
                                   <div class="left-form">
                                     <div class="row">
                                       <div class="col-sm-12 col-sm-12 col-lg-6">
-                                        <label>
+                                      <label>
                                             <h6>
                                               Full Name
                                               <span
@@ -169,8 +133,23 @@
                                               >
                                             </h6>
                                             <input type="text" placeholder="Enter fullname" name="full_name" required />
-                                          </label>
+                                      </label>
+                                      <label>
+                                            <h6>
+                                              Amount
+                                              <span
+                                                style="
+                                                  color: red !important;
+                                                  margin-left: 5px;
+                                                  display: inline;
+                                                "
+                                                >*</span
+                                              >
+                                            </h6>
+                                            <input type="number" placeholder="Enter amount" name="amount" required />
+                                      </label>
                                       </div>
+
                                       <div class="col-sm-12 col-sm-12 col-lg-6">
                                           <label style="">
                                               <h6>
@@ -203,7 +182,7 @@
                                                   >*</span
                                                 >
                                               </h6>
-                                              <input type="text" placeholder="Enter Phone Number" name="phone" required />
+                                              <input type="number" placeholder="Enter Phone Number" name="phone" required />
                                             </label>
                                       </div>
                                       <div class="col-sm-12 col-md-12 col-lg-6">
@@ -221,7 +200,7 @@
                                                 >
                                               </h6>
                                               <div>
-                                                <input type="date" id="date-input" placeholder="DD/MM/YY">
+                                                <input type="date" placeholder="DD/MM/YY" name="date_of_birth">
                                              </div>
                                             </label>
                                       </div>
@@ -271,7 +250,7 @@
                                                     margin-left: 5px;
                                                     display: inline;">*</span
                                                 > -->
-                                                <select id="country" name="marital_status" class="form-control">
+                                                <select name="marital" class="form-control">
                                                   <option value="default" disabled selected>
                                                     Select your Marital Status
                                                   </option>
@@ -288,7 +267,7 @@
                                                 <label>Select Country 
                                                        <span style="color: red; margin-left: 5px; display: inline;">*</span>
                                                 </label>
-                                                <select id="country-select" onchange="getCountryState(event)">
+                                                <select id="country-select" onchange="getCountryState(event)" name="country">
                                                 </select>
                                               </div>
                                               <div class="col-sm-12 col-md-12 col-lg-6 gm">
@@ -303,7 +282,7 @@
                                                             >*</span
                                                           >
                                                         </h6>
-                                                        <select name="" id="state-select">
+                                                        <select name="state" id="state-select">
                                                           
                                                         </select>
                                                       </label>
@@ -357,13 +336,18 @@
                                     <div class="row">
                                       <div class="col-sm-12 col-md-12 col-lg-6">
                                       <div class="">
-                                            <label for="Faculty">Faculty/College/School
+                                            <label for="Faculty">Faculty/School
                                                    <span style="color: red !important; margin-left: 5px; display: inline;">*</span>
                                             </label>
-                                            <select id="country" name="country" class="form-control">
-                                              <option value="default" disabled selected>
-                                                Faculty/College/School
-                                              </option>
+                                            <select name="faculty" class="form-control">
+                                              <option disabled selected>select faculty/school</option>
+                                              <option value="School_of_Community_Health_Extension_Workers">School of Community Health Extension Workers</option>
+                                              <option value="School_of_Medical_Laboratory_Technician">School of Medical Laboratory Technician</option>
+                                              <option value="⁠School_of_Complimentary_Health_Science">⁠School of Complimentary Health Science</option>
+                                              <option value="⁠School_of_Environmental_Health_Technology">⁠School of Environmental Health Technology</option>
+                                              <option value="School_of_Pharmacy_Technician">⁠School of Pharmacy Technician</option>
+                                              <option value="School_of_Health_Information_Management ">School of Health Information Management</option>
+                                              <option value="⁠School_of_Morbid_Science">⁠School of Morbid Science</option>
                                             </select>
                                           </div>
                                       </div>
@@ -380,7 +364,7 @@
                                                       >*</span
                                                     >
                                                   </h6>
-                                                  <input type="text" placeholder="Enter Degree/Diploma/Certificate Obtained" required />
+                                                  <input type="text" placeholder="Enter Degree/Diploma/Certificate Obtained" required name="degree"/>
                                             </label>
                                       </div>
                                     </div>
@@ -392,9 +376,53 @@
                                             <label for="Department">Department
                                                  <span style="color: red !important; margin-left: 5px; display: inline;">*</span>
                                             </label>
-                                                  <select id="country" name="country" class="form-control bycountry">
-                                                    <option value="default" disabled selected>
+                                                  <select class="form-control bycountry" name="department">
+                                                    <option disabled selected>
                                                       Select your Department
+                                                    </option>
+
+                                                    <option value="Community_Health_Extension_Workers">
+                                                      Community Health Extension Workers
+                                                    </option>
+
+                                                    <option value="Junior_Community_Health_Extension_Workers">
+                                                      Junior Community Health Extension Workers
+                                                    </option>
+
+                                                    <option value="Medical_Laboratory_Technician">
+                                                      Medical Laboratory Technician
+                                                    </option>
+
+                                                    <option value="Phlebotomy">
+                                                      Phlebotomy
+                                                    </option>
+
+                                                    <option value="Environmental_Health">
+                                                      Environmental Health
+                                                    </option>
+
+                                                    <option value="Biomedical">
+                                                      Biomedical
+                                                    </option>
+
+                                                    <option value="Health_Information_Technology">
+                                                      Health Information Technology
+                                                    </option>
+
+                                                    <option value="Pharmacy_Technician">
+                                                      Pharmacy Technician
+                                                    </option>
+
+                                                    <option value="Complimentary_Health_Science">
+                                                      Complimentary Health Science
+                                                    </option>
+
+                                                    <option value="Public_Health_Technician">
+                                                      Public Health Technician
+                                                    </option>
+
+                                                    <option value="Morbid_Science">
+                                                      Morbid Science
                                                     </option>
                                                   </select>
                                           </div>
@@ -412,7 +440,7 @@
                                                 >*</span
                                               >
                                             </h6>
-                                            <input type="text" placeholder="Enter Matric Number" required />
+                                            <input type="number" placeholder="Enter Matric Number" required name="matric"/>
                                           </label>
                                         </div>
                                     </div>
@@ -429,10 +457,10 @@
                                                       margin-left: 5px;
                                                       display: inline;
                                                     "
-                                                    >*</span
+                                                    ></span
                                                   >
                                                 </h6>
-                                                <input type="text" placeholder="Enter Present Employer" required />
+                                                <input type="text" placeholder="Enter Present Employer"  name="employer"/>
                                           </label>
                                         </div>
                                         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -445,10 +473,10 @@
                                                       margin-left: 5px;
                                                       display: inline;
                                                     "
-                                                    >*</span
+                                                    ></span
                                                   >
                                                 </h6>
-                                                <input type="text" placeholder="Enter Address of Employer" required />
+                                                <input type="text" placeholder="Enter Address of Employer" name="employer_address"/>
                                           </label>
                                         </div>
 
@@ -467,136 +495,20 @@
                                                   margin-left: 5px;
                                                   display: inline;
                                                 "
-                                                >*</span
+                                                ></span
                                               >
                                             </h6>
-                                            <input type="text" placeholder="Enter Present Post/Rank" required />
+                                            <input type="text" placeholder="Enter Present Post/Rank" name="rank"/>
                                           </label>
                                         </div> 
                                       <div class="sharpiru-button">
-                                          <button type="submit" name="submit">Proceed</button>
+                                          <button id="submitButton">
+                                              <span class="" role="status" aria-hidden="true"></span>
+                                               <span id="buttonText">Proceed</span>
+                                          </button>
                                       </div>
                                     </div> 
                         </form>
-                
-                  <div class="second-form">
-
-                      <form class="form-main d-flex flex-column" action="submit ">
-                          <!-- <label>
-                            <h6>
-                                Degree/Diploma/Certificate Obtained
-                              <span
-                                style="
-                                  color: red !important;
-                                  margin-left: 5px;
-                                  display: inline;
-                                "
-                                >*</span
-                              >
-                            </h6>
-                            <input type="text" placeholder="Enter Degree/Diploma/Certificate Obtained" required />
-                          </label>
-            
-            
-                          <div class="">
-                            <label for="Faculty">Faculty/College/School</label
-                            ><span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                            <select id="country" name="country" class="form-control">
-                              <option value="default" disabled selected>
-                                Faculty/College/School
-                              </option>
-                            </select>
-                          </div>
-            
-                          <div class="">
-                            <label style="padding-top: 0.5px;" for="Department">Department</label
-                            ><span
-                              style="
-                                color: red !important;
-                                margin-left: 5px;
-                                display: inline;
-                              "
-                              >*</span
-                            >
-                            <select id="country" name="country" class="form-control">
-                              <option value="default" disabled selected>
-                                Select your Department
-                              </option>
-                            </select>
-                          </div>
-            
-                          <label class="pt-3">
-                            <h6>
-                              Matric No.
-                              <span
-                                style="
-                                  color: red !important;
-                                  margin-left: 5px;
-                                  display: inline;
-                                "
-                                >*</span
-                              >
-                            </h6>
-                            <input type="text" placeholder="Enter Matric Number" required />
-                          </label>
-            
-                    
-            
-                          <label style="padding-top: 5px;">
-                            <h6>
-                                Present Employer (If any)
-                              <span
-                                style="
-                                  color: red !important;
-                                  margin-left: 5px;
-                                  display: inline;
-                                "
-                                >*</span
-                              >
-                            </h6>
-                            <input type="text" placeholder="Enter Present Employer" required />
-                          </label>
-            
-                          <label>
-                            <h6>
-                                Address of Employer (If any)
-                              <span
-                                style="
-                                  color: red !important;
-                                  margin-left: 5px;
-                                  display: inline;
-                                "
-                                >*</span
-                              >
-                            </h6>
-                            <input type="text" placeholder="Enter Address of Employer" required />
-                          </label>
-            
-            
-                          <label style="padding-top: 2px;">
-                            <h6 style="padding-top: 9px;">
-                                Present Post/Rank (If any)
-                              <span
-                                style="
-                                  color: red !important;
-                                  margin-left: 5px;
-                                  display: inline;
-                                "
-                                >*</span
-                              >
-                            </h6>
-                            <input type="text" placeholder="Enter Present Post/Rank" required />
-                          </label> -->
-                      </form>
-                  </div>
-
               </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -653,7 +565,7 @@
     
           <div class="socials-icons">
                     <div>
-                      <a href="https://instagram.com" target="_blank">
+                      <a href="https://instagram.com/thelascohetalumni" target="_blank">
                       <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
@@ -667,12 +579,6 @@
                     <div>
                       <a href="https://twitter.com/helascohet_tla" target="_blank">
                       <img src="assets/Group (1).png" alt=""  class="mr-2"/>
-                      </a>
-                    </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
                       </a>
                     </div>
                   </div>

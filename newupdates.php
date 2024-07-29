@@ -577,7 +577,7 @@
 
             <div class="socials-icons">
                     <div>
-                      <a href="https://instagram.com" target="_blank">
+                      <a href="https://instagram.com/thelascohetalumni" target="_blank">
                       <img src="assets/bi_instagram.png"  alt="" class="mr-2"/>
                       </a>
                     </div>
@@ -591,12 +591,6 @@
                     <div>
                       <a href="https://twitter.com/helascohet_tla" target="_blank">
                       <img src="assets/Group (1).png" alt=""  class="mr-2"/>
-                      </a>
-                    </div>
-
-                    <div>
-                      <a href="https://linkedin.com" target="_blank">
-                      <img src="assets/Group (2).png" alt="" class="mr-2" />
                       </a>
                     </div>
                   </div>

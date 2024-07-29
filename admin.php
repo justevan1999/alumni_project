@@ -115,31 +115,23 @@
                </form> 
             </div> -->
                 <div class="container">
-                <form action="#" method="POST" class="sign-in-form">
+                <form action="login.php" method="POST" class="sign-in-form">
                     <h2 class="top-head">Welcome Back</h2>
                     <p style="text-align: center; padding-bottom: 15px;">Sign-in your account to continue</p>
                     <div class="form-group">
-                        <label for="email" style="padding-bottom: 10px;">Email Address:</label>
-                        <input type="text" id="email" name="email" placeholder="Enter email address" required>
+                        <label for="email" style="padding-bottom: 10px;">Email Address or Username:</label>
+                        <input type="text" name="username" placeholder="Enter email address" required>
                     </div>
 
                     <div class="form-group">
                         <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                        <input type="password" name="password" placeholder="Enter password" required>
                     </div>
 
                     <div class="form-group">
                         <button type="submit">Sign-In</button>
                     </div>
-
-                    <div class="form-group-2">
-                        <button type="submit">Continue with Google</button>
-                    </div>
                 </form>
-
-                <div class="form-group">
-                    <p>Don't have an account? <a href="signup.php">Create Account</a></p>
-                </div>
          </div>
         </div>
         <div class="col-sm-12-col-md-12-col-lg-1"></div>

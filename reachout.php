@@ -37,7 +37,7 @@
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <li><a href="newupdates.php">New Updates</a></li>
+              <!-- <li><a href="newupdates.php">New Updates</a></li> -->
               <li><a href="membership.php">Membership</a></li>
               <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
@@ -50,7 +50,7 @@
               <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="newupdates.php">New Updates</a></li>
+                <!-- <li><a href="newupdates.php">New Updates</a></li> -->
                 <li><a href="membership.php">Membership</a></li>
                 <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
@@ -58,7 +58,7 @@
                 <a href="reachout.php">
                   <button>Contact Us</button>  
                 </a>
-                <a href="checkout.php">
+                <a href="form.php">
                   <button class="btn-pay">Pay Alunmi Fee</button>                     
                 </a>
               </div>
@@ -88,7 +88,24 @@
                                       <img src="assets/phone-call 1.png" alt="">
                                     </div>
                                     <div>
-                                       <p>+(234) 012-345-6789, +(234) 123-456-7890.</p>
+                                       <p>
+                                        <a style="color: black;" href="tel:+2348162767345" class="numberrr">
+                                           08162767345
+                                        </a>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="call-icon">
+                                    <div>
+                                      <img style="width: 15px" src="assets/Platform=WhatsApp, Color=Original.png" alt="">
+                                    </div>
+                                    <div>
+                                       <p>
+                                        <a style="color: black;" class="whatsapplink" href="https://wa.me/+2348032528009" target="_blank">
+                                        08032528009
+                                        </a>
+                                      </p>
                                     </div>
                                   </div>
                                   <div class="twitter-icon">
@@ -96,7 +113,11 @@
                                       <img src="assets/Twitter Outline.png" alt="">
                                     </div>
                                     <div>
-                                        <p>Lascohet_alumni</p>
+                                        <p>
+                                          <a style="color: black;" href="https://twitter.com/helascohet_tla" target="_blank">
+                                          Lascohet_alumni
+                                          </a>
+                                        </p>
                                     </div>
                                   </div>
       
@@ -105,7 +126,11 @@
                                       <img src="assets/Instagram Outline.png" alt="">
                                     </div>
                                     <div>
-                                        <p>Lascohet_alumni</p>
+                                        <p>
+                                          <a style="color: black;" href="https://instagram.com/thelascohetalumni" target="_blank">
+                                          Lascohet_alumni
+                                          </a>
+                                        </p>
                                     </div>
                                   </div>
       
@@ -123,7 +148,11 @@
                                         <img src="assets/envelope 2.png" alt="">
                                     </div>
                                     <div>
-                                        <p>support@lascohet.aluimni | support@lascohet.aluimni</p>
+                                        <p>
+                                          <a style="color: black;" class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@thelascohetalumni.com&su=Support%20Inquiry&body=Hello%2C%20I%20need%20assistance%20with..." target="_blank">
+                                          Support@thelascohetalumni.com
+                                          </a>
+                                        </p>
                                     </div>
                                   </div>
       
@@ -133,7 +162,7 @@
                                     </div>
                                     <div>
       
-                                      <p>11 Toyin Street Ikeja, Lagos State</p>
+                                      <p>8, Harvey Road, Yaba, Lagos.</p>
                                         
                                     </div>
                                   </div>

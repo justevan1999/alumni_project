@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -73,62 +73,7 @@
     
       </div>
     </header>
-    <!-- <header>
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-10">
-          <nav class="navbar navbar-expand-lg navbar-light" id="navbar_top">
-            <a class="navbar-brand" href="#">
-                <span class="nav-item-logo">
-                    <a href="Home.html">
-                    <img src="/assets/Logo.png" alt="" />
-                    </a>
-                  </span>
-            </a>
-            <button
-            class="navbar-toggler"
-           type="button"
-           data-toggle="collapse"
-           data-target="#navbarSupportedContent"
-           aria-controls="navbarSupportedContent"
-           aria-expanded="false"
-           aria-label="Toggle navigation"
-         >
-         <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAiElEQVR4nO3YwRGAIAxEUcrTsQdCH5oGSJdqH3qyADEjKP/NcGdP2dkQAABAg0RtSpr3pHbUfLLYFtXG+wEW22p/Pl0hNK/9BYhqYwshRPMqcx5uBwAA9E0cu1Bxn3nC+woX1YGuA0THLkSfAQD8fhcS775UY5EQz7rx+QDx5V1I2H8AAAjfcwI8FTi/DCbpogAAAABJRU5ErkJggg==">
-        
-         </button> 
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <div class="nav-top">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="Home.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="About.html">About</a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="Newupdates.html">Newupdates</a>
-                      </li>
-        
-                      <li class="nav-item">
-                        <a class="nav-link" href="membership.html">Membership</a>
-                      </li>
-                    </ul>
-                  </div>
-              <div class="main-buttons pt-2">
-                <button class="contact-btn">Contact Us</button>
-                <button class="hero-btn">Get Involved</button>
-
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
-    </header> -->
+  
 
     
 <div data-aos="zoom-out"
@@ -657,4 +602,4 @@
       AOS.init();
     </script>
   </body>
-</html>
+</html> -->

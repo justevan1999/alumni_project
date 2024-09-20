@@ -44,7 +44,7 @@
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <li><a href="newupdates.php">New Updates</a></li>
+              <!-- <li><a href="newupdates.php">New Updates</a></li> -->
               <li><a href="membership.php">Membership</a></li>
               <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
@@ -56,7 +56,7 @@
               <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="newupdates.php">New Updates</a></li>
+                <!-- <li><a href="newupdates.php">New Updates</a></li> -->
                 <li><a href="membership.php">Membership</a></li>
                 <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
@@ -64,7 +64,7 @@
                 <a href="reachout.php">
                   <button>Contact Us</button>  
                 </a>
-                <a href="checkout.php">
+                <a href="form.php">
                   <button class="btn-pay">Pay Alunmi Fee</button>                     
                 </a>
               </div>
@@ -389,8 +389,23 @@
         <div class="row">
           <div class="col-md-12 col-md-12 col-lg-1"></div>
           <div class="col-md-12 col-md-12 col-lg-10">
-            <div class="whole-image mt-5">
-              <img src="assets/Group 20646.png" alt="" />
+            <div class="whole-image mt-5 ">
+              <h1><span style="color: #950000; font-weight: 600">Welcome to Our</span> <span>Blog!</span></h1>
+              <p>Discover insightful articles, tips, and stories designed to inform and inspire. Stay updated with the latest trends, expert opinions, and in-depth guides on a variety of topics. Dive in and explore our content to stay ahead!</p>
+              <img style="border-radius: 4px" src="assets/rexblog.jpg" alt="" />
+              <center>
+              <button style=" outline: none !important;
+                                border: none !important;
+                                color: #fff !important;
+                                background-color: #950000 !important;
+                                margin-top: 2.99rem !important;
+                                padding: 5px 75px !important;
+                                border-radius: 4px !important;
+                                justify-content: center" 
+                                class="nav-btn">Read Blog
+                </button>
+              </center>
+           
             </div>
           </div>
           <div class="col-md-12 col-md-12 col-lg-1"></div>
@@ -468,7 +483,7 @@
                           </div>
           
                           <div class="below-butn m-auto">
-                            <button class="below-butn-main">Read More</button>
+                            <!-- <button class="below-butn-main">Read More</button> -->
                           </div>
                         </div>
                       </div>
@@ -518,7 +533,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 colg-1"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-1"></div>
                   </div>
                   <div class="row mt-5 relay ">
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -581,5 +596,16 @@
 <script>
   AOS.init();
 </script>
+
+<script>
+        const button = document.querySelector('.nav-btn');
+        
+        // Make sure the button exists before setting the onclick
+        if (button) {
+            button.onclick = function() {
+                window.location.href = "blog.php";
+            };
+        }
+    </script>
   </body>
 </html>

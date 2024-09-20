@@ -1,52 +1,63 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const menu_toggle = document.getElementById("menu_toggle");
-    menu_toggle?.addEventListener("click", () => {
+  const menu_toggle = document.getElementById("menu_toggle");
+
+  // Check if menu_toggle exists before adding the event listener
+  if (menu_toggle) {
+    menu_toggle.addEventListener("click", () => {
       const mobile_nav = document.getElementById("sm_ul");
-      mobile_nav.classList.toggle("show_menu");
-    });
-  
-    // Highlight the current page in the navigation menu
-    const currentPage = window.location.pathname;
-    console.log("Current Page:", currentPage);
-  
-    const navLinks = document.querySelectorAll("nav ul li a");
-  
-    // Default: Highlight the "Home" link
-    // const homeLink = document.querySelector("nav ul li a[href='/']");
-    const homeLink = document.querySelector('nav ul li a')
-    
-    if (homeLink.href.split('/')[4] === 'index.php') {
-      homeLink.classList.add("hideee");
-    }
-  
-    navLinks.forEach((link) => {
-      const linkPath = link.getAttribute("href");
-      // Check if the current page exactly matches the link path
-      if (currentPage === linkPath) {
-        link.classList.add("hideee");
+      if (mobile_nav) {
+        mobile_nav.classList.toggle("show_menu");
       } else {
-        link.classList.remove("hideee");
+        console.error("Element with ID 'sm_ul' not found");
       }
     });
+  } else {
+    console.error("Element with ID 'menu_toggle' not found");
+  }
+
+  // Highlight the current page in the navigation menu
+  const currentPage = window.location.pathname; // e.g., "/index.php"
+  console.log("Current Page:", currentPage);
+
+  const navLinks = document.querySelectorAll("nav ul li a");
+
+  // Update homeLink to use the actual homepage path (e.g., index.php)
+  const homeLink = document.querySelector("nav ul li a[href='index.php']");
+
+  if (homeLink) {
+    homeLink.classList.add("hideee");
+  } else {
+    console.error("Home link not found");
+  }
+
+  // Loop through all navigation links and highlight the current page
+  navLinks.forEach((link) => {
+    const linkPath = link.getAttribute("href"); // e.g., "index.php"
+
+    // Compare the current path with the link's href attribute
+    if (currentPage.includes(linkPath)) {
+      link.classList.add("hideee"); // Add class if it's the current page
+    } else {
+      link.classList.remove("hideee"); // Remove class for other pages
+    }
   });
+});
+
+
+
+
 
   
-document.addEventListener('DOMContentLoaded', function() {
-  const readmoreButton = document.getElementById('read_button');
 
-  readmoreButton?.addEventListener('onClick', function() {
-    window.location.href = 'added.php';
-  });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('read_button')?.addEventListener('click', () => {
-    window.location.href = 'added.php'
-  })
-  // .onclick = () => {
-      // window.location.href = 'added.php';
-  // };
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//   document.getElementById('read_button')?.addEventListener('click', () => {
+//     window.location.href = 'added.php'
+//   })
+//   .onclick = () => {
+//       window.location.href = 'added.php';
+//   };
+// });
 
 
   // document.addEventListener('DOMContentLoaded', function(){
@@ -62,11 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
   //   window.location.href = 'index.php';
   // };
 
-  document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('arrow_left').onclick = () => {
-        window.location.href = 'index.php';
-    };
-  });
+  // document.addEventListener('DOMContentLoaded', () => {
+  //   document.getElementById('arrow_left').onclick = () => {
+  //       window.location.href = 'index.php';
+  //   };
+  // });
 
 
 function getCountries() {

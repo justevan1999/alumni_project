@@ -57,7 +57,7 @@
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <li><a href="newupdates.php">New Updates</a></li>
+              <!-- <li><a href="newupdates.php">New Updates</a></li> -->
               <li><a href="membership.php">Membership</a></li>
               <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
@@ -70,7 +70,7 @@
               <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="newupdates.php">New Updates</a></li>
+                <!-- <li><a href="newupdates.php">New Updates</a></li> -->
                 <li><a href="membership.php">Membership</a></li>
                 <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
@@ -78,7 +78,7 @@
                 <a href="reachout.php">
                   <button>Contact Us</button>  
                 </a>
-                <a href="checkout.php">
+                <a href="form.php">
                   <button class="btn-pay">Pay Alunmi Fee</button>                     
                 </a>
               </div>

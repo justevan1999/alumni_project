@@ -43,7 +43,7 @@
                   <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="newupdates.php">New Updates</a></li>
+                    <!-- <li><a href="newupdates.php">New Updates</a></li> -->
                     <li><a href="membership.php">Membership</a></li>
                     <li><a href="executives.php">Executive Comittee</a></li>
                   </ul>
@@ -56,7 +56,7 @@
                     <ul>
                       <li><a href="index.php">Home</a></li>
                       <li><a href="about.php">About</a></li>
-                      <li><a href="newupdates.php">New Updates</a></li>
+                      <!-- <li><a href="newupdates.php">New Updates</a></li> -->
                       <li><a href="membership.php">Membership</a></li>
                       <li><a href="executives.php">Executive Comittee</a></li>
                     </ul>
@@ -64,7 +64,7 @@
                       <a href="reachout.php">
                         <button>Contact Us</button>  
                       </a>
-                      <a href="checkout.php">
+                      <a href="form.php">
                         <button class="btn-pay">Pay Alunmi Fee</button>                     
                       </a>
                     </div>
@@ -75,37 +75,45 @@
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
       </div>
     </header>
-    <div class="executive-hero"></div> 
+    <div class="executive-hero">
+      <!-- <h1 class="execc">MEET THE EXECUTIVES.</h1> -->
+    </div> 
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
                 <div class="executvies">
-                  <div class="mem-1-details pb-4">
-                    <div class="row one">
-                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <h2>Arole Yusuf Adeshola</h2>
-                        <h6 class="line pt-2 pb-2">President, Lascohet Alumni</h6>
-                        <p>
-                          A graduate of Environmental Health Technology from Lagos State College of Health Technology Yaba in 2004. Joined the Lagos State Civil Service in 2007 as an Environmental Health Officer.
-                          National Environmental Health Students of Nigeria (NAEHSN) 2003
-                        </p>
-                        <p>
-                          Former Vice Chairman, Student Representative Council, Student Representative Council, Lascohet Yaba 2002/2003
-                          Former Branch Secretary, NULGE Eti-Osa LG 2011/2014
-                          State Secretary EHOAN Lagos Chapter 2023 till date
-                        </p>
-                        <p>
-                          Former National Treasurer,
-                          Secretary, Epe Grammar School Old Student Association (EGOSA) 1990/1995 set.
-                          Worked at Eti-Osa Local Government and Lagos State Primary Health Care Board, Yaba.
-                        </p>
-                     </div>
-                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <img class="move" src="assets/president-2.jpeg" alt="">
-                     </div>  
+                <div data-aos="fade-up"
+                     data-aos-duration="1000">
+                    <div class="mem-1-details pb-4">
+                      <div class="row one">
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                          <h2>Arole Yusuf Adeshola</h2>
+                          <h6 class="line pt-2 pb-2">President, Lascohet Alumni</h6>
+                          <p>
+                            A graduate of Environmental Health Technology from Lagos State College of Health Technology Yaba in 2004. Joined the Lagos State Civil Service in 2007 as an Environmental Health Officer.
+                            National Environmental Health Students of Nigeria (NAEHSN) 2003
+                          </p>
+                          <p>
+                            Former Vice Chairman, Student Representative Council, Student Representative Council, Lascohet Yaba 2002/2003
+                            Former Branch Secretary, NULGE Eti-Osa LG 2011/2014
+                            State Secretary EHOAN Lagos Chapter 2023 till date
+                          </p>
+                          <p>
+                            Former National Treasurer,
+                            Secretary, Epe Grammar School Old Student Association (EGOSA) 1990/1995 set.
+                            Worked at Eti-Osa Local Government and Lagos State Primary Health Care Board, Yaba.
+                          </p>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                          <img class="move" src="assets/president-2.jpeg" alt="">
+                      </div>  
+                      </div>
                     </div>
-                  </div>
-                  <div class="mem-2-details pb-4">
+                </div>
+
+                <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-2-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                         <h2>Taiwo, Olanrewaju Hafis</h2>
@@ -128,7 +136,12 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-3-details pb-4">
+                </div>
+                 
+
+                  <div data-aos="fade-up"
+                      data-aos-duration="1000">
+                      <div class="mem-3-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                         <h2>Dawodu Oluwagbemiga Joseph</h2>
@@ -150,7 +163,15 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-4-details pb-4">
+                  </div>
+
+
+
+                 
+
+                  <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <div class="mem-4-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                           <h2>Salawu Quadry Olatunji</h2>
@@ -172,7 +193,13 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-5-details pb-4">
+                  </div>
+
+                  
+
+                  <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-5-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                         <h2>Omonusi Kayode Solomon</h2>
@@ -194,7 +221,13 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-6-details pb-4">
+                  </div>
+
+                  
+
+                  <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-6-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                         <h2>Asekun Ekundayo mathew</h2>
@@ -214,7 +247,13 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-7-details pb-4">
+                  </div>
+
+                  
+
+                  <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-7-details pb-4">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                       <h2>Akinyanmi Abraham Akintomide</h2>
@@ -235,7 +274,13 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-8-details">
+                  </div>
+
+                  
+
+                  <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-8-details">
                     <div class="row one">
                      <div class="col-sm-12 col-md-12 col-lg-6">
                         <h2>Sulaimon Abiola Rashidat</h2>
@@ -258,12 +303,21 @@
                      </div>  
                     </div>
                   </div>
-                  <div class="mem-9-details">
+                  </div>
+
+                 
+
+                  <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="mem-9-details">
                     <div class="row">
                      <div class="col-sm-12 col-md-12 col-lg-6"></div>
                      <div class="col-sm-12 col-md-12 col-lg-6"></div>  
                     </div>
                   </div>
+                  </div>
+
+                  
                 </div>
           </div>
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -390,5 +444,8 @@
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

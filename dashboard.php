@@ -1,5 +1,7 @@
 <?php
 session_start();
+include('dbconnection.php');
+
 
 if (!isset($_SESSION['admin'])) {
     header('Location: admin.php');
@@ -10,7 +12,7 @@ if (!isset($_SESSION['admin'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Dashboard</title>
@@ -47,113 +49,58 @@ if (!isset($_SESSION['admin'])) {
             <table class="table table-light">
             <thead>
                 <tr>
+                <th scope="col">User Id</th>
                 <th scope="col">Full Name</th>
                 <th scope="col">Email</th>
+                <th scope="col">Phone Number</th>
                 <th scope="col">Amount</th>
                 <th scope="col">Reference</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="first-tr">
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr class="first-tr">
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="first-tr">
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="second-tr">
-                <th scope="row">4</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="first-tr">
-                <th scope="row">5</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">6</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="first-tr">
-                <th scope="row">7</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">8</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="first-tr">
-                <th scope="row">7</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">8</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr class="first-tr">
-                <th scope="row">7</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr class="second-tr">
-                <th scope="row">8</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
+            <?php
+                 // Database configuration
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $dbname = "alumnidb";
+
+                 // Create connection
+                $conn = new mysqli($servername, $username, $password, $dbname);
+
+                // Check connection
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                }
+
+                // Your query and result processing code
+                $sql = "SELECT user_id, full_name, email, phone, amount, reference FROM users";
+                $result = $conn->query($sql);
+
+                if ($result) {
+                    // Check if there are results
+                        if ($result->num_rows > 0) {
+                            while ($row = $result->fetch_assoc()) {
+                                echo "<tr>
+                                        <td>" . htmlspecialchars($row["user_id"], ENT_QUOTES, 'UTF-8') . "</td>
+                                        <td>" . htmlspecialchars($row["full_name"], ENT_QUOTES, 'UTF-8') . "</td>
+                                        <td>" . htmlspecialchars($row["email"], ENT_QUOTES, 'UTF-8') . "</td>
+                                        <td>" . htmlspecialchars($row["phone"], ENT_QUOTES, 'UTF-8') . "</td>
+                                        <td>" . htmlspecialchars($row["amount"], ENT_QUOTES, 'UTF-8') . "</td>
+                                        <td>" . htmlspecialchars($row["reference"], ENT_QUOTES, 'UTF-8') . "</td>
+                                    </tr>";
+                            }
+                        } else {
+                            echo "<tr><td colspan='6'>0 results</td></tr>";
+                        }
+                    } else {
+                        // Output SQL error
+                        echo "Error: " . $sql . "<br>" . $conn->error;
+                    }
+
+                    // Close the connection
+                    $conn->close();
+                    ?>
             </tbody>
             </table>
         </div>

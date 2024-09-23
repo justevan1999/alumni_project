@@ -30,12 +30,13 @@
                 class="logo_lg"
               />
               </a>
-             
-              <img
+             <a href="index.php">
+             <img
                 src="assets/logo_rounded.png"
                 alt="Company Brand"
                 class="logo_sm"
               />
+             </a>
             </div>
             <ul>
               <li><a href="index.php">Home</a></li>

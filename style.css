@@ -2017,9 +2017,13 @@ thead {
     width: 92%;
   }
 
+  .box-3, .box-2, .box-1 p {
+    font-size: 18px;
+  }
+
   .below-text h4 {
     font-size: 23px;
-    text-align: justify;
+    text-align: center;
   }
 
   .speaker-text h3 {
@@ -2048,7 +2052,8 @@ thead {
   }
 
   .notable h4 {
-    font-size: 23px;
+    margin-top: 2rem;
+    font-size: 30px;
   }
 
   .notable p {
@@ -2070,7 +2075,7 @@ thead {
   }
 
   .build-p {
-    font-size: 18px !important;
+    font-size: 19px !important;
     padding-top: 6px;
   }
 

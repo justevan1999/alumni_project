@@ -1857,7 +1857,7 @@ thead {
 
   .top-text h1 {
     font-weight: 800;
-    font-size: 22px;
+    font-size: 26px;
     /* text-align: center; */
   }
 
@@ -1885,7 +1885,7 @@ thead {
     display: block;
   }
   .top-text {
-    margin-top: 40px !important;
+    margin-top: 85px !important;
   }
 
   .add-sec {

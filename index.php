@@ -155,7 +155,7 @@
                           incorporating the training of community midwives and nurses into
                           its program between 1957 and 1966.
                         </p>
-                        <button class="create-butn">Create Alumni Account</button>
+                        <!-- <button class="create-butn">Create Alumni Account</button> -->
                       </div>
                 </div>
               </div>

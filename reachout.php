@@ -211,12 +211,7 @@
                   <p>E-clearance</p>
                 </div>
 
-                <div class="navigate pt-3">
-                  <h5>Quick Navigation</h5>
-                  <p>Create Alumni Account</p>
-                  <p>My Account</p>
-                  <p>Pay Alumni fee</p>
-                </div>
+               
 
                 <div class="address pt-3">
                   <h5>Address</h5>

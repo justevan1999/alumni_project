@@ -2603,6 +2603,10 @@ nav ul {
   font-size: 30px;
 }
 
+.mem-1-details {
+  margin-top: 2rem;
+}
+
 
 
 
@@ -2619,7 +2623,7 @@ nav ul {
   .executive-hero::before {
     font-size: 40px; /* Further reduce font size */
     letter-spacing: 5px; /* Adjust letter spacing */
-    padding-top: 160px; /* Reduce padding further */
+    padding-top: 155px; /* Reduce padding further */
   }
 }
 
@@ -2629,7 +2633,7 @@ nav ul {
   }
 
   .executive-hero::before {
-    font-size: 30px; /* Adjust font size for very small devices */
+    font-size: 26px; /* Adjust font size for very small devices */
      /* Narrow letter spacing */
  /* Minimal padding for small screens */
   }

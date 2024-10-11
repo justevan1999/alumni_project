@@ -12,8 +12,8 @@
     echo "Session is empty";
   }
 ?>
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,8 +33,8 @@
     <title>Get involved</title>
   </head>
 
-  <body onload="getCountries()">
-    <header>
+  <!-- <body onload="getCountries()"> -->
+    <!-- <header>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
@@ -57,7 +57,7 @@
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="about.php">About</a></li>
-              <!-- <li><a href="newupdates.php">New Updates</a></li> -->
+              <li><a href="newupdates.php">New Updates</a></li>
               <li><a href="membership.php">Membership</a></li>
               <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
@@ -70,7 +70,7 @@
               <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <!-- <li><a href="newupdates.php">New Updates</a></li> -->
+                <li><a href="newupdates.php">New Updates</a></li>
                 <li><a href="membership.php">Membership</a></li>
                 <li><a href="executives.php">Executive Comittee</a></li>
               </ul>
@@ -89,7 +89,7 @@
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
     
       </div>
-    </header>
+    </header> -->
     <!-- <header>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -147,50 +147,50 @@
       </div>
     </header> -->
 
-    <div class="">
+    <!-- <div class="">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10 maradona">
           <div class="form-top">
             <div class="personal-info position-fixed">
               <div class="infos">
-                <!-- <a href="form.php">
+                <a href="form.php">
                     <div class="person">
                         <p>Personal Information</p>
                       </div>
-                </a>  -->
-                <!-- <a href="additional.php">
+                </a> 
+                <a href="additional.php">
                     <div class="additional">
                         <p>Additional Details</p>
                       </div>
-                </a> -->
+                </a>
 
-                <!-- <a href="checkout.php">
+                <a href="checkout.php">
                     <div class="checkout">
                         <p>Check Out</p>
                       </div>
-                </a> -->
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-1"></div>
-    </div>
+    </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-sm-12 col-md-12 col-lg-10">
               <div data-aos="fade-down"
                   data-aos-duration="2500">
                   <div class="japa">
                     <div class="check-out">
-                      <!-- <div class="check">
+                      <div class="check">
                           <h1>Checkout</h1>
                           <h4>Billings Information</h4>
-                      </div> -->
+                      </div>
 
-                      <!-- <form action="" method="POST">
+                      <form action="" method="POST">
                         <label>
                             <h6>
                               Full Name
@@ -252,15 +252,15 @@
                             </h6>
                             <input type="text" placeholder="Enter Phone Number" name="phone" required value="<?php echo isset($_SESSION['phone']) ? htmlspecialchars($_SESSION['phone']) : ''; ?>" disabled/>
                         </label>
-                      </form> -->
+                      </form>
 
                        
     
-                        <!-- <div class="notice">
+                        <div class="notice">
                           <span> <span class="down">Note:</span> Ensure the your Information matches the previous form you fill.</span>
-                        </div> -->
+                        </div>
                     </div>
-                      <!-- <div class="pay-section">
+                      <div class="pay-section">
                        
                         <div class="summary mt-5">
                           <h4>Summary</h4>
@@ -290,18 +290,18 @@
                         <div class="text-center mylast">
                           <button id="submitButton" type="submit" name="submit">Pay now</button>
                         </div>
-                    </div> -->
+                    </div>
     
                     
                   </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
+        </div> -->
     
 
 
-    <section class="color-change">
+    <!-- <section class="color-change">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
@@ -330,7 +330,12 @@
               <p>E-clearance</p>
             </div>
 
-          
+            <div class="navigate pt-3">
+              <h5>Quick Navigation</h5>
+              <p>Create Alumni Account</p>
+              <p>My Account</p>
+              <p>Pay Alumni fee</p>
+            </div>
 
             <div class="address pt-3">
               <h5>Address</h5>
@@ -366,42 +371,42 @@
         </div>
         <div class="col-sm-12 col-md-12 colg-1"></div>
       </div>
-    </section>
+    </section> -->
 
 
-    <script>
+    <!-- <script>
       document.getElementById('home-img').onclick = function(){
         window.location.href = 'index.php';
       }
-    </script>
+    </script> -->
 
-    <script>
+    <!-- <script>
       document.getElementById('goToCheckOut').onclick = function() {
           window.location.href = 'form.php'; // Change 'about.html' to your desired URL
       };
-  </script>
+  </script> -->
 
-  <script>
+  <!-- <script>
     document.getElementById('goToContact').onclick = function(){
       window.location.href = 'reachout.php'
     }
-  </script>
-    <script
+  </script> -->
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
-    ></script>
-    <script
+    ></script> -->
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
-    ></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    ></script> -->
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
     <script>
       AOS.init();
     </script>
 
     <script src="index.js"></script>
   </body>
-</html>
+<!-- </html> -->
  

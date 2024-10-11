@@ -440,14 +440,14 @@
                                                 >*</span
                                               >
                                             </h6>
-                                            <input type="number" placeholder="Enter Matric Number" required name="matric"/>
+                                            <input type="text" placeholder="Enter Matric Number" required name="matric"/>
                                           </label>
                                         </div>
                                     </div>
                                           
                                           
                                       <div class="row">
-                                        <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <!-- <div class="col-sm-12 col-md-12 col-lg-6">
                                           <label style="padding-top: 5px;">
                                                 <h6>
                                                     Present Employer (If any)
@@ -462,8 +462,8 @@
                                                 </h6>
                                                 <input type="text" placeholder="Enter Present Employer"  name="employer"/>
                                           </label>
-                                        </div>
-                                        <div class="col-sm-12 col-md-12 col-lg-6">
+                                        </div> -->
+                                        <!-- <div class="col-sm-12 col-md-12 col-lg-6">
                                             <label style="padding-top: 5px">
                                                 <h6>
                                                     Address of Employer (If any)
@@ -478,7 +478,7 @@
                                                 </h6>
                                                 <input type="text" placeholder="Enter Address of Employer" name="employer_address"/>
                                           </label>
-                                        </div>
+                                        </div> -->
 
                                       </div>
                                          
@@ -486,7 +486,7 @@
                                           
                             
                             
-                                          <label style="padding-top: 2px;">
+                                          <!-- <label style="padding-top: 2px;">
                                             <h6 style="padding-top: 9px;">
                                                 Present Post/Rank (If any)
                                               <span
@@ -499,7 +499,7 @@
                                               >
                                             </h6>
                                             <input type="text" placeholder="Enter Present Post/Rank" name="rank"/>
-                                          </label>
+                                          </label> -->
                                         </div> 
                                       <div class="sharpiru-button">
                                           <button id="submitButton">
@@ -535,19 +535,33 @@
 
             <div class="contact pt-3">
               <h5>Contact us</h5>
-              <p>Phone Number</p>
-              <p>Support@thelascohetalumni.org</p>
+              <p>
+                      <a style="color: black;" href="tel:+2348162767345" class="numberrr">
+                        08162767345
+                      </a>
+                    </p>
+                    <p>
+                      <a style="color: black;" class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@thelascohetalumni.com&su=Support%20Inquiry&body=Hello%2C%20I%20need%20assistance%20with..." target="_blank">
+                        Support@thelascohetalumni.com
+                      </a>
+                    </p>
               <p>info@thelascohetalumni.org</p>
             </div>
 
             <div class="links pt-3">
               <h5>Useful links</h5>
               <p>Lascohet website</p>
-              <p>Lascohet Portal</p>
+              <p>
+                      <a href="https://portal.lascohet.edu.ng/student_login.php" target="_blank">Lascohet Portal</a>                      
+                    </p>
               <p>E-clearance</p>
             </div>
-
-           
+            <!-- <div class="navigate pt-3">
+                      <h5>Building a Legacy: College of Health Technology Alumni Network</h5>
+                      <p>Create Alumni Account</p>
+                      <p>My Account</p>
+                      <p>Pay Alumni fee</p>
+                  </div> -->
 
             <div class="address pt-3">
               <h5>Address</h5>

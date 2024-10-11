@@ -317,17 +317,34 @@
 
             <div class="contact pt-3">
               <h5>Contact us</h5>
-              <p>Phone Number</p>
-              <p>Support@thelascohetalumni.org</p>
+              <p>
+                  <a style="color: black;" href="tel:+2348162767345" class="numberrr">
+                    08162767345
+                  </a>
+                </p>
+                <p>
+                      <a style="color: black;" class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@thelascohetalumni.com&su=Support%20Inquiry&body=Hello%2C%20I%20need%20assistance%20with..." target="_blank">
+                        Support@thelascohetalumni.com
+                      </a>
+                    </p>
               <p>info@thelascohetalumni.org</p>
             </div>
 
             <div class="links pt-3">
               <h5>Useful links</h5>
               <p>Lascohet website</p>
-              <p>Lascohet Portal</p>
+              <p>
+                      <a href="https://portal.lascohet.edu.ng/student_login.php" target="_blank">Lascohet Portal</a>                      
+                    </p>
               <p>E-clearance</p>
             </div>
+
+                  <div class="navigate pt-3">
+                      <!-- <h5>Building a Legacy: College of Health Technology Alumni Network</h5>
+                      <p>Create Alumni Account</p>
+                      <p>My Account</p>
+                      <p>Pay Alumni fee</p>
+                  </div> -->
 
 
             <div class="address pt-3">

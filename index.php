@@ -146,7 +146,7 @@
                           <br />
                           <span class="health">health Care</span>Professionals)
                         </h1>
-                        <p>
+                        <!-- <p>
                           Lagos State College of Health Technology, formerly known as
                           School of Hygiene was established in 1920 by Dr I. Oladipo
                           Oluwole[1] based on the prevailing health situations and low
@@ -154,8 +154,10 @@
                           School of hygiene offered six major health courses before
                           incorporating the training of community midwives and nurses into
                           its program between 1957 and 1966.
-                        </p>
-                        <!-- <button class="create-butn">Create Alumni Account</button> -->
+                        </p> -->
+                        <a href="form.php">
+                          <button class="create-butn">Pay Alumni Fee</button>
+                        </a>
                       </div>
                 </div>
               </div>
@@ -281,7 +283,7 @@
              <div class="col-sm-12 col-md-12 col-lg-6">
               <div class="address-text">
               <h3>
-                <span class="address-color">Address by</span> The<span
+                <span class="address-color">Address by</span> The <span
                   class="address-color-2"
                   >Alumni</span
                 >
@@ -305,7 +307,41 @@
                 the bonds we formed, the challenges we overcame, and the
                 lessons we learned together.
               </p>
-              <button class="address-butn">Read More</button>
+
+              <p>
+              Today, as alumni, we are spread across various corners of the world, making our mark in diverse fields and industries. Our experiences serve as a testament to the quality of education we received at LASCOHET. It is our responsibility to uphold the reputation of our alma mater, and I encourage each of you to contribute to its growth and development.
+              </p>
+
+              <p>
+              The LASCOHET Alumni association plays a vital role in fostering connections, promoting collaboration, and giving back to the institution that has shaped us. Through networking events, mentorship programs, and philanthropic initiatives, we can continue to make a meaningful impact on current students, faculty, and the community at large.
+              </p>
+
+              <p>
+              Let us work together to support ongoing educational advancements, scholarship opportunities, and infrastructure improvements at LASCOHET. As we do so, we ensure that future generations of students have access to the same high-quality education that has empowered us to excel.
+              </p>
+
+              <p>
+              I invite all alumni to actively engage with the association, share your expertise, and contribute your ideas. Let us leverage our collective strength to create a positive influence on society and to be role models for aspiring professionals.
+              </p>
+
+              <p>
+              In conclusion, I am confident that with our shared dedication and commitment, the LASCOHET Alumni association will continue to flourish. Let us embrace our responsibilities with pride, honour our alma mater, and inspire the world with our achievements.
+              </p>
+
+              <p>
+              Thank you, and may our journey as LASCOHET alumni be one of continued success and impact.
+              </p>
+
+              <p>
+              Accept my warm regards.
+              </p>
+
+              <p>
+              Arole Yusuf Adeshola
+              President, 
+              LASCOHET Alumni Association.
+              </p>
+              <!-- <button class="address-butn">Read More</button> -->
             </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -348,7 +384,7 @@
                       ventures, driving economic progress while addressing
                       healthcare challenges.
                     </p>
-                    <button class="involved-butn">Get Involved</button>
+                    <!-- <button class="involved-butn">Get Involved</button> -->
                   </div>
                 </div>
               </div>
@@ -368,10 +404,17 @@
                 <div class="row just">
                   <div class="col-sm-12 col-md-12 col-lg-6" style="margin-top: 2.9rem;">
                       <h3 id="target">
-                        Empowering <span class="alumni"> Excellence, </span><br /><span class="associatess"> Connecting </span> Futures
+                      The TLA Foundation: Empowering <span class="alumni"> Excellence, </span><br /><span class="associatess"> Connecting </span> Futures
                       </h3>
                     <p>At the heart of healthcare innovation and impact lies the College of Health Technology Alumni Association Foundation. We are not just an association; we are a family, a force for change, and a beacon of excellence in the healthcare community. Comprising graduates who have excelled in diverse fields, we stand united in our mission to empower, connect, and uplift.</p>
-                      <button id="read_button" class="involved-butn">Read More</button>
+                    <div class="thebuts">
+                      <div>
+                      <button id="" class="involved-butn">Donate</button>
+                      </div>
+                      <div>
+                      <button id="read_button" class="involvedsss">Read More</button>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-sm-12 col-md-12 col-lg-6">
                       <img class="w-100 den" src="assets/added.png" alt="">
@@ -412,8 +455,8 @@
         </div>
             </div>
               <div data-aos="fade-left"
-                data-aos-duration="1500">
-                <div class="speakers mt-5">
+                   data-aos-duration="1500">
+                <!-- <div class="speakers mt-5">
                   <div class="row text-center">
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                     <div class="col-sm-12 col-md-12 col-lg-10">
@@ -480,17 +523,17 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                    </div>
           
                           <div class="below-butn m-auto">
-                            <!-- <button class="below-butn-main">Read More</button> -->
+                            <button class="below-butn-main">Read More</button>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
                   </div>
-                </div>
+                </div> -->
                 </div>
                   <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -508,18 +551,35 @@
             
                         <div class="contact pt-3">
                           <h5>Contact us</h5>
-                          <p>Phone Number</p>
-                          <p>Support@thelascohetalumni.org</p>
+                          <p>
+                      <a style="color: black;" href="tel:+2348162767345" class="numberrr">
+                        08162767345
+                      </a>
+                    </p>
+                    <p>
+                      <a style="color: black;" class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@thelascohetalumni.com&su=Support%20Inquiry&body=Hello%2C%20I%20need%20assistance%20with..." target="_blank">
+                        Support@thelascohetalumni.com
+                      </a>
+                    </p>
                           <p>info@thelascohetalumni.org</p>
                         </div>
             
                         <div class="links pt-3">
                           <h5>Useful links</h5>
                           <p>Lascohet website</p>
-                          <p>Lascohet Portal</p>
+                          <p>
+                      <a href="https://portal.lascohet.edu.ng/student_login.php" target="_blank">Lascohet Portal</a>                      
+                    </p>
                           <p>E-clearance</p>
                         </div>
-            
+
+                        <!-- <div class="navigate pt-3">
+                      <h5>Building a Legacy: College of Health Technology Alumni Network</h5>
+                      <p>Create Alumni Account</p>
+                      <p>My Account</p>
+                      <p>Pay Alumni fee</p>
+                  </div>
+             -->
                        
             
                         <div class="address pt-3">
@@ -557,7 +617,11 @@
                     <div class="col-sm-12 col-md-12 col-lg-1"></div> 
                   </div>  
     </section>
-
+    <script>
+      document.getElementById('read_button').onclick = function() {
+        window.location.href = 'added.php';
+      }
+    </script>
 
     <script>
         document.getElementById('home-img').onclick = function(){

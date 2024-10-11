@@ -15,9 +15,64 @@
     <title>ALUMNI</title>
   </head>
 <body>
-    <div class="row" style="margin-top: 5rem;">
+<header>
+      <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
-          <i id="arrow_left" class='bx bx-left-arrow-alt'><span>back</span></i>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+          <nav class="d-flex align-items-center">
+            <div id="home-img" class="logos">
+              <a href="index.php">
+                <img
+                src="assets/next2.png"
+                alt="Company Brand"
+                class="logo_lgs"
+              />
+              </a>
+             
+              <img
+                src="assets/next2.png"
+                alt="Company Brand"
+                class="logo_sms"
+              />
+            </div>
+            <ul>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <!-- <li><a href="newupdates.php">New Updates</a></li> -->
+              <li><a href="membership.php">Membership</a></li>
+              <li><a href="executives.php">Executive Comittee</a></li>
+            </ul>
+            <div class="nav_btns">
+              <button id="goToContact">Contact Us</button>
+              <button id="goToCheckOut">Pay Alunmi Fee</button>
+            </div>
+            <div class="sm_ul" id="sm_ul">
+              <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <!-- <li><a href="newupdates.php">New Updates</a></li> -->
+                <li><a href="membership.php">Membership</a></li>
+                <li><a href="executives.php">Executive Comittee</a></li>
+              </ul>
+              <div class="nav_btns">
+                <a href="reachout.php">
+                  <button>Contact Us</button>  
+                </a>
+                <a href="form.php">
+                  <button class="btn-pay">Pay Alunmi Fee</button>                     
+                </a>
+              </div>
+            </div>
+            <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
+          </nav>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+    
+      </div>
+    </header>
+    <div class="row" style="margin-top: 6rem;">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <!-- <i id="arrow_left" class='bx bx-left-arrow-alt'><span>back</span></i> -->
             
         <div class="col-sm-12 col-md-12 col-lg-10">
             <div data-aos="fade-down"
@@ -34,7 +89,7 @@
                                 </h3>
                                 <p>At the heart of healthcare innovation and impact lies the College of Health Technology Alumni Association Foundation. We are not just an association; we are a family, a force for change, and a beacon of excellence in the healthcare community. Comprising graduates who have excelled in diverse fields, we stand united in our mission to empower, connect, and uplift.</p>
                                 <a href=""target= "_blank">
-                                <button class="involved-butn">PAY</button>
+                                <button class="involved-butn">Donate</button>
                                 </a>
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -60,14 +115,14 @@
                          <section class="">
                             <div class="row just" style="margin-top: 5rem;">
                                 <div class="col-sm-12 col-md-12 col-lg-6">
-                                    <img class="calm" style="width: 100%;" src="assets/group 20649.png" alt="">
+                                    <img class="calm" style="width: 100%;" src="assets/empower.jpg" alt="">
                                 </div>
                                 <div class="col-sm-12 col-md-12 col-lg-6">
                                     <h3 id="target">
                                         Our Mission <span class="alumni"> To </span><br /><span class="associatess"> Empower </span> The Excellence
                                     </h3>
                                     <p>Our mission pulses with purpose: to empower our alumni, elevate healthcare standards, and forge lasting connections that transcend boundaries. With unwavering commitment, we cultivate a culture of excellence, fostering collaboration and camaraderie among our esteemed members. Together, we champion progress, advocate for change, and leave an indelible mark on the healthcare landscape.</p>
-                                    <button id="int" class="involved-butn">Get Involved</button>
+                                    <!-- <button id="int" class="involved-butn">Get Involved</button> -->
                                 </div>
                             </div>
                         </section>
@@ -106,7 +161,7 @@
                             <p>Together, we are stronger. Together, we are unstoppable. Together, we are the College of Health Technology Alumni Association Foundation.</p>
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-6">
-                            <img class="w-100 trap" src="assets/Frame 20650.png" alt="">
+                            <img class="w-100 trap" src="assets/connect.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -231,7 +286,7 @@
               <div class="footer">
                 <div class="footer-contents">
                   <div class="logo">
-                    <img src="assets/Logo2.png" alt="" class="w-75 pt-2" />
+                    <img src="assets/next2.png" alt="" class="nextlogo" />
                   </div>
                   <p class="website">
                     This is the official website of the Lagos State College of
@@ -241,17 +296,34 @@
 
                 <div class="contact pt-3">
                   <h5>Contact us</h5>
-                  <p>Phone Number</p>
-                  <p>Support@thelascohetalumni.org</p>
+                  <p>
+                      <a style="color: black;" href="tel:+2348162767345" class="numberrr">
+                        08162767345
+                      </a>
+                    </p>
+                    <p>
+                      <a style="color: black;" class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@thelascohetalumni.com&su=Support%20Inquiry&body=Hello%2C%20I%20need%20assistance%20with..." target="_blank">
+                      TLAfoundation@thelascohetalumni.org
+                      </a>
+                    </p>
                   <p>info@thelascohetalumni.org</p>
                 </div>
 
                 <div class="links pt-3">
                   <h5>Useful links</h5>
                   <p>Lascohet website</p>
-                  <p>Lascohet Portal</p>
+                  <p>
+                      <a href="https://portal.lascohet.edu.ng/student_login.php" target="_blank">Lascohet Portal</a>                      
+                    </p>
                   <p>E-clearance</p>
                 </div>
+
+                <!-- <div class="navigate pt-3">
+                      <h5>Building a Legacy: College of Health Technology Alumni Network</h5>
+                      <p>Create Alumni Account</p>
+                      <p>My Account</p>
+                      <p>Pay Alumni fee</p>
+                </div> -->
 
               
 

@@ -146,7 +146,7 @@
                                                 >*</span
                                               >
                                             </h6>
-                                            <input type="number" placeholder="Enter amount" name="amount" required />
+                                            <input id="amountInput" type="number" value="15000" placeholder="Enter amount" name="amount" required readonly />
                                       </label>
                                       </div>
 
@@ -525,7 +525,7 @@
           <div class="footer">
             <div class="footer-contents">
               <div class="logo">
-                <img src="/assets/Logo2.png" alt="" class="w-75 pt-2" />
+                <img src="assets/Logo2.png" alt="" class="w-75 pt-2" />
               </div>
               <p class="website">
                 This is the official website of the Lagos State College of

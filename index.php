@@ -366,7 +366,7 @@
               <div class="associate">
                 <div class="col-md-12 col-md-12 col-lg-6">
                   <div class="associate-image">
-                    <img src="assets/Frame 2.png" alt="" />
+                    <img src="assets/changes.png" alt="" />
                   </div>
                 </div>
                 <div class="col-md-12 col-md-12 col-lg-6 associate-text">

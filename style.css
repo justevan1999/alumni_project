@@ -2077,8 +2077,16 @@ a {
   }
 
   .box-3, .box-2, .box-1 p {
-    font-size: 18px;
+    font-size: 19px;
   }
+
+  .thebuts {
+    display: block !important;
+}
+
+.involvedsss {
+  padding-top: 15px !important;
+}
 
   .below-text h4 {
     font-size: 23px;

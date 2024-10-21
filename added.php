@@ -43,8 +43,8 @@
               <li><a href="executives.php">Executive Comittee</a></li>
             </ul>
             <div class="nav_btns">
-              <button id="goToContact">Contact Us</button>
-              <button id="goToCheckOut">Pay Alunmi Fee</button>
+              <button onclick="goToContact()">Contact Us</button>
+              <button onclick="goToCheckout()">Pay Alunmi Fee</button>
             </div>
             <div class="sm_ul" id="sm_ul">
               <ul>

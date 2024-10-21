@@ -167,6 +167,14 @@ function getCountryState(event) {
 }
 
 
+const goToContact = () => {
+  window.location.href = "reachout.php"
+}
+
+const goToCheckout = () => {
+  window.location.href = "form.php"
+}
+
 
 
 

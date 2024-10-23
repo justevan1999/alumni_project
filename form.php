@@ -146,7 +146,7 @@
                                                 >*</span
                                               >
                                             </h6>
-                                            <input id="amountInput" type="number" value="15000" placeholder="Enter amount" name="amount" required readonly />
+                                            <input type="number" value="15000" placeholder="Enter amount" name="amount" disabled />
                                       </label>
                                       </div>
 

@@ -22,19 +22,19 @@
         <div class="col-sm-12 col-md-12 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-10">
           <nav class="d-flex align-items-center">
-            <div id="home-img" class="logos">
+          <div id="home-img" class="logos">
               <a href="index.php">
                 <img
-                src="assets/loscohet_logo.png"
+                src="assets/next2.png"
                 alt="Company Brand"
-                class="logo_lg"
+                class="logo_lgs"
               />
               </a>
              
               <img
-                src="assets/logo_rounded.png"
+                src="assets/next2.png"
                 alt="Company Brand"
-                class="logo_sm"
+                class="logo_sms"
               />
             </div>
             <ul>
@@ -161,7 +161,7 @@
                         <div class="footer">
                             <div class="footer-contents">
                             <div class="logo">
-                                <img src="assets/Logo2.png" alt="" class="w-75 pt-2"/>
+                              <img src="assets/next2.png" alt="" class="nextlogo" />
                             </div>
                             <p class="website">
                                 This is the official website of the Lagos State College of

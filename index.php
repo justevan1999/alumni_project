@@ -184,7 +184,9 @@
                             Sign up to be a member of the <br />
                             LASCOHET Alumni Community.
                           </p>
-                          <button class="reg">Register Here!</button>
+                          <a href="https://bit.ly/TLAREGISTRATION" target="_blank">
+                            <button class="reg">Register Here!</button> 
+                          </a>
                         </div>
                       </div> 
                         <div class="col-sm-12 col-md-12 col-lg-4">

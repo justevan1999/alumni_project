@@ -1672,6 +1672,15 @@ a {
   border-radius: 10px !important;
 }
 
+.reg {
+  outline: none;
+  background-color: #950000;
+  color: #fff;
+  border: none;
+  padding: 4px 20px;
+  border-radius: 3px;
+}
+
 /* .navigate h5 {
   font-size: 14px;
 } */

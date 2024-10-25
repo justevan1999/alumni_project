@@ -184,6 +184,7 @@
                             Sign up to be a member of the <br />
                             LASCOHET Alumni Community.
                           </p>
+                          <button class="reg">Register Here!</button>
                         </div>
                       </div> 
                         <div class="col-sm-12 col-md-12 col-lg-4">

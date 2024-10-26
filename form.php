@@ -502,9 +502,11 @@
                                           </label> -->
                                         </div> 
                                       <div class="sharpiru-button">
-                                          <button id="submitButton">
-                                              <span class="" role="status" aria-hidden="true"></span>
-                                               <span id="buttonText">Proceed</span>
+                                          <button id="submitButton" type="submit">
+                                              <!-- <span class="" role="status" aria-hidden="true"></span> -->
+                                               <!-- <span id="buttonText"> 
+                                              </span> -->
+                                              Proceed
                                           </button>
                                       </div>
                                     </div> 
